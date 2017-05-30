@@ -3,7 +3,7 @@
     <div class="row first-row">
         <div class="col-md-12 clear-paddings">
             <div class="fixOverlayDiv">
-                <img class="img-responsive" src="<?=PUBLIC_URL?>images/stock/iisc1.jpg">
+                <img class="img-responsive" src="<?=PUBLIC_URL?>images/stock/iisc2.jpg">
                 <div class="OverlayTextMain">
                     <div class="mainpage">
                         <h2>28<sup>th</sup> Mid Year Meeting</h2>
