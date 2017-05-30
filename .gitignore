@@ -1,0 +1,11 @@
+.junk/
+public/pdf/
+public/multimedia/
+public/Photos/*.jpg
+public/Photos/*/*.jpg
+public/Photos/*/*/*.jpg
+public/Photos/*.JPG
+public/Photos/*/*.JPG
+public/Photos/*/*/*.JPG
+data/
+public/Downloads/
