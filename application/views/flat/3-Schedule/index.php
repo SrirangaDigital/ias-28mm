@@ -319,7 +319,7 @@ $(document).ready(function() {
                             <dd>
                                <span class="speaker">Pradyut Ghosh</span><br />
                                IASc, Bengaluru<br/ >
-                               <span class="talk">IACS, Kolkata Synthetic Small Molecules as Machines: A Chemistry Perspective.</span>
+                               <span class="talk">Synthetic Small Molecules as Machines: A Chemistry Perspective.</span>
                             </dd>
                         </dl>
                     </div>
