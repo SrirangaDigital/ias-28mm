@@ -185,7 +185,7 @@ $(document).ready(function() {
                             <dd>
                                <span class="speaker">Ranjit Thapa</span><br />
                                SRM University, Kattankulathur<br/ >
-                               <span class="talk">Descriptor and Indicator for sp2-Hybridized Carbon-Based Catalysts.</span>
+                               <span class="talk">Descriptor and Indicator for sp<sup>2</sup>-Hybridized Carbon-Based Catalysts.</span>
                             </dd>
                         </dl>
                         <br />
