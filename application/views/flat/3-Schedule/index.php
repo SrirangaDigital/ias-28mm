@@ -244,24 +244,14 @@ $(document).ready(function() {
                                
 							   <span class="speaker">A.R. Venkatachalapathy</span><br />
 							   Madras Institute of Developmental Studies, Chennai<br/ >
+							   <span class="talk">Subramania Bharati: Nationalism and Creativity</span>
                             </dd>
                         </dl><br/>
-                        <dl class="dl-horizontal">
-							<dt>
-								1800 - 1900<br />
-								<div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
-							</dt>
-							<dd>
-							   <span class="speaker">Subramania Bharati</span><br />
-							   Nationalism and Creativity<br />
-							</dd>
-						</dl>
                     </div>
                 </div>
                 
                 <div class="schedule-text" id="day2">
                     <h3>1 July 2017 (Saturday)</h3>
-                    <h5>Venue : </h5><br />
 					<span class="type">Session 2A - Special Lecture (0930–1010)</span><br /><br />
                     <div class="session">
                         <dl class="dl-horizontal">
@@ -272,7 +262,7 @@ $(document).ready(function() {
                             <dd>
                                <span class="speaker">Gagandeep Kang</span><br />
                                THSTI, Faridabad<br/ >
-                               <span class="talk">Conservation Science at Macro-Ecological Scales</span>
+                               <span class="talk">Vaccines and Public Health in INDIA</span>
                             </dd>
                         </dl>
                     </div>
@@ -328,7 +318,7 @@ $(document).ready(function() {
                             </dt>
                             <dd>
                                <span class="speaker">Pradyut Ghosh</span><br />
-                               IISc, Bengaluru<br/ >
+                               IASc, Bengaluru<br/ >
                                <span class="talk">IACS, Kolkata Synthetic Small Molecules as Machines: A Chemistry Perspective.</span>
                             </dd>
                         </dl>
