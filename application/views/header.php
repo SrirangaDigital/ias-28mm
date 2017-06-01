@@ -68,7 +68,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="<?=BASE_URL?>#home">Home</a></li>
                     <li><a>·</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="<?=BASE_URL?>About">About</a></li>
                     <li><a>·</a></li>
                     <li><a href="#">Speakers</a></li>
                     <li><a>·</a></li>
