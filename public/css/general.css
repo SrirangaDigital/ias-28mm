@@ -353,3 +353,9 @@ p.img-small img{
 .text-center {
 	text-align: center;
 }
+.small-image{
+	width: 6%;
+}
+img.full-width-image{
+	width: 100%;
+}
