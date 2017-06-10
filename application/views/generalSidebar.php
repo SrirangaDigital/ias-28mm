@@ -10,7 +10,7 @@
     <ul>
         <!-- <li><a href="http://web-japps.ias.ac.in:8080/Annualmeeting2016/annual/register/Register.jsp" target="_blank">Registration</a></li> -->
         <li><a href="<?=BASE_URL?>Information/Venue" target="_blank">Venue</a></li>
-        <li><a href="#" target="_blank">Accomodation</a></li>
+        <li><a href="<?=BASE_URL?>Information/Accommodation" target="_blank">Accommodation</a></li>
         <li><a href="<?=BASE_URL?>Information/Transport" target="_blank">Transport</a></li>
         <li><a href="<?=BASE_URL?>Information/Press_and_Media" target="_blank">Press and Media</a></li>
         <li><a href="<?=BASE_URL?>page/flat/Information/Contact" target="_blank">Contact</a></li>
