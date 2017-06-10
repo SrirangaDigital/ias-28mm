@@ -52,7 +52,7 @@ $(document).ready(function() {
                 <div class="schedule-text" id="day1">
                     <h3>30 June 2017 (Friday)</h3>
                     <h5>Venue : Faculty Hall, Indian Institute of Science, Bengaluru</h5><br />
-					<span class="type">Session 1A - Special Lecture (0930 - 1010)</span><br /><br />
+					          <span class="type">Session 1A - Special Lecture (0930 - 1010)</span><br /><br />
                     <div class="session">
                         <dl class="dl-horizontal">
                             <dt>
@@ -323,9 +323,7 @@ $(document).ready(function() {
                             </dd>
                         </dl>
                     </div>
-                </div>
-                
-                
+                </div>                
             </div>
         </div>
         <div class="col-md-3 sidebar">
