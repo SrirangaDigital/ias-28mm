@@ -70,13 +70,13 @@
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>About">About</a></li>
                     <li><a>·</a></li>
-                    <li><a href="#">Speakers</a></li>
+                    <li><a href="<?=BASE_URL?>#speakers">Speakers</a></li>
                     <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>page/flat/Schedule">Schedule</a></li>                    
+                    <li><a href="<?=BASE_URL?>Schedule">Schedule</a></li>                    
                     <li><a>·</a></li>
                     <li><a href="#">Gallery</a></li>
-                    <li><a href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle logo"></a></li>
-                    <li><a href="#">Info for Participants</a></li>
+                    <li><a href="<?=BASE_URL?>#home"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle logo"></a></li>
+                    <li><a href="<?=BASE_URL?>#information">Info for Participants</a></li>
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>Information/Downloads">Downloads</a></li>
                     <li><a>·</a></li>
