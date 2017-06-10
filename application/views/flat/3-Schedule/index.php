@@ -53,7 +53,7 @@ $(document).ready(function() {
                 <div class="schedule-text" id="day1">
                     <h3>30 June 2017 (Friday)</h3>
                     <h5>Venue : Faculty Hall, Indian Institute of Science, Bengaluru</h5><br />
-					          <span class="type">Session 1A - Special Lecture (0930 - 1010)</span><br /><br />
+                    <span class="type">Session 1A - Special Lecture (0930 - 1010)</span><br /><br />
                     <div class="session">
                         <dl class="dl-horizontal">
                             <dt>
@@ -91,14 +91,14 @@ $(document).ready(function() {
                             <span class="talk">Topological Phases of Quantum Matter.</span>
                           </dd>
                         </dl><br />
-						            <div class="break">
+                        <div class="break">
                           <dl class="dl-horizontal">
-            								<dt>
-            									1100 - 1120
-            								</dt>
-          								  <dd>Tea break</dd>
-          							  </dl>
-          						  </div><br/ >
+                            <dt>
+                              1100 - 1120
+                            </dt>
+                            <dd>Tea break</dd>
+                          </dl>
+                        </div><br/ >
                         <dl class="dl-horizontal">
                           <dt>
                             1120 - 1140<br />
@@ -187,14 +187,14 @@ $(document).ready(function() {
                             <span class="talk">Descriptor and Indicator for sp<sup>2</sup>-Hybridized Carbon-Based Catalysts.</span>
                           </dd>
                         </dl><br />
-						            <div class="break">
+                        <div class="break">
                           <dl class="dl-horizontal">
                             <dt>
                               1545 - 1605
-								            </dt>
-								            <dd>Tea break</dd>
+                            </dt>
+                            <dd>Tea break</dd>
                           </dl>
-						            </div><br/ >
+                        </div><br/ >
                         <dl class="dl-horizontal">
                           <dt>
                             1605 - 1625<br />
@@ -246,7 +246,7 @@ $(document).ready(function() {
                 </div>
                 <div class="schedule-text" id="day2">
                     <h3>1 July 2017 (Saturday)</h3>
-  					        <span class="type">Session 2A - Special Lecture (0930–1010)</span><br /><br />
+                    <span class="type">Session 2A - Special Lecture (0930–1010)</span><br /><br />
                     <div class="session">
                       <dl class="dl-horizontal">
                         <dt>
@@ -273,14 +273,14 @@ $(document).ready(function() {
                           <span class="talk">Noise and Nonequilibrium in Nano-machine Operation: A Physics Perspective.</span>
                         </dd>
                       </dl><br />
-  						      <div class="break">
+                    <div class="break">
                       <dl class="dl-horizontal">
-  								      <dt>
+                        <dt>
                           1040 - 1100
-  								      </dt>
-  								      <dd>Tea break</dd>
+                        </dt>
+                        <dd>Tea break</dd>
                       </dl>
-  						      </div><br/ >
+                    </div><br/ >
                     <dl class="dl-horizontal">
                       <dt>
                         1100 - 1130<br />
