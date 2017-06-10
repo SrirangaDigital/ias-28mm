@@ -78,7 +78,7 @@
                     <li><a href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle logo"></a></li>
                     <li><a href="#">Info for Participants</a></li>
                     <li><a>·</a></li>
-                    <li><a href="#">Downloads</a></li>
+                    <li><a href="<?=BASE_URL?>Information/Downloads">Downloads</a></li>
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>Information/Contact">Contact Us</a></li>
                 </ul>

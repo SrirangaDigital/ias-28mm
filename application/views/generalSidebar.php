@@ -19,9 +19,7 @@
 
     <h1>Downloads</h1>
     <ul>
-        <li><a href="#" target="_blank">Speaker Profiles and Abstracts</a></li>
-        <li><a href="#" target="_blank">Programme Card</a></li>
-        <li><a href="#" target="_blank">Programme</a></li>
-        <li><a href="#" target="_blank">Special Lectures</a></li>
-        <li><a href="#" target="_blank">Symposia</a></li>
+        <li><a href="<?=DOWNLOAD_URL?>28MYM-abstracts.pdf" target="_blank">Speaker Profiles and Abstracts</a></li>
+        <li><a href="<?=DOWNLOAD_URL?>28MYMcardprn.pdf" target="_blank">Programme Card</a></li>
+        <li><a href="<?=DOWNLOAD_URL?>28MYMprogposter.pdf" target="_blank">Programme</a></li>
     </ul>
