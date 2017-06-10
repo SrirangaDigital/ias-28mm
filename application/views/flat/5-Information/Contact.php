@@ -32,6 +32,24 @@
                     Email: ravi@ias.ac.in
                 </div>
             </div>
+
+            <h2>For assistance with regard to logistics and hospitality</h2>
+            <p>
+                Venkatarathnam, N (090080 32003, venkat@ias.ac.in)
+            </p>            
+
+            <h2>For queries related to airport pick-up and drop</h2>
+            <p>
+                Jayakumar, A (096327 26132)<br /> 
+                Vijaya Kumar (094482 46083)
+            </p>           
+
+            <h2>For queries related to local travel</h2>
+            <p>
+                Nagesh, K (098863 24220)    
+            </p>
+ 
+
         </div>
         <div class="col-md-3 sidebar">
 <?php require_once('application/views/generalSidebar.php');?>
