@@ -105,11 +105,11 @@
              <figcaption class="figure-caption text-xs-right">Sumathi Rao</figcaption>     
         </a>
         <a href="<?=BASE_URL?>Speakers/Debabrata_Dash">
-             <img src="<?=PUBLIC_URL?>images/stock/Debabrata_Dash.jpg" class="speaker-thumbnail" alt="Debabrata_Dash" title="Debabrata_Dash"/>
-             <figcaption class="figure-caption text-xs-right">Debabrata_Dash</figcaption>     
+             <img src="<?=PUBLIC_URL?>images/stock/Debabrata_Dash.jpg" class="speaker-thumbnail" alt="Debabrata Dash" title="Debabrata Dash"/>
+             <figcaption class="figure-caption text-xs-right">Debabrata Dash</figcaption>     
         </a>
         <a href="<?=BASE_URL?>Speakers/Suman_K_Dhar">
-             <img src="<?=PUBLIC_URL?>images/stock/Suman_K_Dhar.jpg" class="speaker-thumbnail" alt="Suman_K_Dhar" title="Suman_K_Dhar"/>
+             <img src="<?=PUBLIC_URL?>images/stock/Suman_K_Dhar.jpg" class="speaker-thumbnail" alt="Suman K Dhar" title="Suman K Dhar"/>
              <figcaption class="figure-caption text-xs-right">Suman K Dhar</figcaption>     
         </a>
         <a href="<?=BASE_URL?>Speakers/Arvind_Ayyer">
