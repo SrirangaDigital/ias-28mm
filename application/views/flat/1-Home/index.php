@@ -182,17 +182,24 @@
     <div class="row">
         <div class="col-md-12 text-center">
             <a href="<?=BASE_URL?>Schedule#day1">
-                <div id="block1" class="col-md-6 schedule-block">
+                <div id="block1" class="col-md-4 schedule-block">
                     <p class="dayNum">Day 1</p>
                     <p class="date">30th Jun 2017</p>
                     <p class="day">Friday</p>
                 </div>
             </a>
             <a href="<?=BASE_URL?>Schedule#day2">
-                <div id="block2" class="col-md-6 schedule-block">
+                <div id="block2" class="col-md-4 schedule-block">
                     <p class="dayNum">Day 2</p>
                     <p class="date">1st Jul 2017</p>
                     <p class="day">Saturday</p>
+                </div>
+            </a>            
+            <a href="<?=BASE_URL?>Schedule#allied">
+                <div id="block3" class="col-md-4 schedule-block">
+                    <p class="dayNum">Allied Events</p>
+                    <p class="date">&nbsp;</p>
+                    <p class="day">&nbsp;</p>
                 </div>
             </a>
         </div>
