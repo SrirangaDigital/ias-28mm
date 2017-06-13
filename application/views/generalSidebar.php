@@ -2,8 +2,9 @@
 
     <h1>Schedule</h1>
     <ul>
-        <li><a href="<?=BASE_URL?>page/flat/Schedule#day1" target="_blank">Day1</a></li>
-        <li><a href="<?=BASE_URL?>page/flat/Schedule#day2" target="_blank">Day2</a></li>
+        <li><a href="<?=BASE_URL?>page/flat/Schedule?day1" target="_blank">Day1</a></li>
+        <li><a href="<?=BASE_URL?>page/flat/Schedule?day2" target="_blank">Day2</a></li>
+        <li><a href="<?=BASE_URL?>page/flat/Schedule?allied" target="_blank">Allied Events</a></li>
     </ul>            
 
     <h1>For Participants</h1>
@@ -19,7 +20,8 @@
 
     <h1>Downloads</h1>
     <ul>
-        <li><a href="<?=DOWNLOAD_URL?>28MYM-abstracts.pdf" target="_blank">Speaker Profiles and Abstracts</a></li>
-        <li><a href="<?=DOWNLOAD_URL?>28MYMcardprn.pdf" target="_blank">Programme Card</a></li>
-        <li><a href="<?=DOWNLOAD_URL?>28MYMprogposter.pdf" target="_blank">Programme</a></li>
+        <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgPoster.pdf">Programme Poster</a></li>
+        <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgBrochure.pdf">Program Brochure</a></li>
+        <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpeaker_Profiles_Abstracts.pdf">Speaker Profiles and Abstracts</a></li>
+        <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpecialLecturePoster.pdf">Special Lectures Poster</a></li>
     </ul>
