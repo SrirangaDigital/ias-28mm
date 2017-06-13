@@ -67,7 +67,7 @@ $(document).ready(function() {
                             </dd>
                         </dl>
                       </div>
-                      <br /><span class="type">Session 1B  - Lectures by Fellows / Associates (1010 - 1300)</span><br /><br />
+                      <br /><span class="type">Session 1B  - Lectures by Fellows / Associates (1010 - 1055)</span><br /><br />
                     <div class="session">
                         <dl class="dl-horizontal">
                           <dt>
@@ -98,7 +98,8 @@ $(document).ready(function() {
                             </dt>
                             <dd>Tea break</dd>
                           </dl>
-                        </div><br/ >
+                        </div>
+                      <br /><span class="type">Session 1C  - Inaugural Lectures by Fellows / Associates(1120-1300)</span><br /><br />                        
                         <dl class="dl-horizontal">
                           <dt>
                             1120 - 1140<br />
@@ -153,7 +154,7 @@ $(document).ready(function() {
                         </dl>
                     </div>
                     <div class="session">
-                      <span class="type">Session 1C – Lectures by Fellows / Associates (1430 - 1720)</span><br /><br />
+                      <span class="type">Session 1D – Inaugural Lectures by Fellows / Associates (1430 - 1540)</span><br /><br />
                       <dl class="dl-horizontal">
                         <dt>
                           1430 - 1450<br />
@@ -195,6 +196,7 @@ $(document).ready(function() {
                             <dd>Tea break</dd>
                           </dl>
                         </div><br/ >
+                        <br /><span class="type">Session 1E  - Inaugural Lectures of Fellows (1605-1720)</span><br /><br />                        
                         <dl class="dl-horizontal">
                           <dt>
                             1605 - 1625<br />
@@ -230,7 +232,7 @@ $(document).ready(function() {
                         </dl>
                     </div>
                     <div class="session">
-                      <span class="type">Session 1D – Public Lecture (1800 - 1900)</span><br />
+                      <span class="type">Session 1F – Public Lecture (1800 - 1900)</span><br />
                       <dl class="dl-horizontal">
                         <dt>
                           1800 - 1900<br />
@@ -260,11 +262,11 @@ $(document).ready(function() {
                         </dd>
                       </dl>
                     </div>
-                    <br /><span class="type">Session 2B – Symposium on ‘Molecular Machines‘ : A multi-disciplinary Enterprise (1010 - 1230)</span><br /><br />
+                    <br /><span class="type">Session 2B – Symposium on ‘Molecular Machines‘ : A multi-disciplinary Enterprise (1010 - 1300)</span><br /><br />
                     <div class="session">
                       <dl class="dl-horizontal">
                         <dt>
-                          1010 - 1040<br />
+                          1020 - 1050<br />
                           <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
                         </dt>
                         <dd>
@@ -276,14 +278,14 @@ $(document).ready(function() {
                     <div class="break">
                       <dl class="dl-horizontal">
                         <dt>
-                          1040 - 1100
+                          1050 - 1110
                         </dt>
                         <dd>Tea break</dd>
                       </dl>
                     </div><br/ >
                     <dl class="dl-horizontal">
                       <dt>
-                        1100 - 1130<br />
+                        1110 - 1140<br />
                         <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
                       </dt>
                       <dd>
@@ -294,7 +296,7 @@ $(document).ready(function() {
                     </dl>
                     <dl class="dl-horizontal">
                       <dt>
-                        1130 - 1200<br />
+                        1140 - 1210<br />
                           <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
                       </dt>
                       <dd>
@@ -305,7 +307,7 @@ $(document).ready(function() {
                     </dl>
                     <dl class="dl-horizontal">
                       <dt>
-                        1200 - 1230<br />
+                        1210 - 1240<br />
                         <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
                       </dt>
                       <dd>
@@ -315,6 +317,14 @@ $(document).ready(function() {
                       </dd>
                     </dl>
                   </div>
+                  <div class="break">
+                      <dl class="dl-horizontal">
+                        <dt>
+                          1300 - 1400
+                        </dt>
+                        <dd>Lunch break</dd>
+                      </dl>
+                    </div>
                 </div>
                 <div class="schedule-text" id="allied">
                   <h3>Meetings</h3>
@@ -337,7 +347,7 @@ $(document).ready(function() {
                       </dt>
                       <dd>
                         <span class="speaker">Science Education Panel : Symposium / Lectures for Invited teachers and SRFs</span><br />
-                        Venue: Academy auditorium<br />
+                        Venue: Faculty Hall, IISc<br />
                       </dd>
                     </dl>
                     <dl class="dl-horizontal">
@@ -346,7 +356,7 @@ $(document).ready(function() {
                         <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
                       </dt>
                       <dd>
-                        <span class="speaker">Science Education Panel : Teachers interactive meeting</span><br />
+                        <span class="speaker">Science Education Panel : Teachers' interactive meeting</span><br />
                         Venue: Academy auditorium<br />
                       </dd>
                     </dl>
@@ -376,12 +386,12 @@ $(document).ready(function() {
                   <div class="session">
                     <dl class="dl-horizontal">
                       <dt>
-                        1430<br />
+                        1500<br />
                         <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Council Meeting</span><br />
-                        Venue: Lounge<br />
+                        Venue: Council Room<br />
                       </dd>
                     </dl>
                     <dl class="dl-horizontal">
@@ -391,81 +401,7 @@ $(document).ready(function() {
                       </dt>
                       <dd>
                         <span class="speaker">Journal of Astrophysics and Astronomy Editorial Board Meeting</span><br />
-                        Venue: Council Room<br />
-                      </dd>
-                    </dl>
-                  </div>
-                  <h3>Sectional Committee Meetings</h3>
-                  <h3>02 July 2017 (Sunday)</h3>
-                  <div class="session">
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Mathematics</span><br />
-                        Venue: Council office<br />
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Physics</span><br />
                         Venue: Lounge<br />
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Chemistry</span><br />
-                        Venue: Council room<br />
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Medicine</span><br />
-                        Venue: Seminar room<br />
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Animal / Plant Sciences</span><br />
-                        Venue: Meeting room 2 (II floor)<br />
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">General Biology</span><br />
-                        Venue: Meeting room 3 (II floor)<br />
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        0930<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Engineering &amp; Technology</span><br />
-                        Venue: Trust room<br />
                       </dd>
                     </dl>
                   </div>
