@@ -13,13 +13,21 @@
             
             <ul class="general-list">
                 <li>
-                    <strong>Abstracts of Lectures</strong><br />
-                    <a target="_blank" href="<?=DOWNLOAD_URL?>28MYM-abstracts.pdf">Speaker Profiles and Abstracts</a><br />
+                   <a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgPoster.pdf">Programme Poster</a>
                 </li>
+                <li>   
+                   <a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgBrochure.pdf">
+                   Program Brochure
+                   </a>
+                </li>   
                 <li>
-                    <strong>Schedules and Posters</strong><br />
-                    <a target="_blank" href="<?=DOWNLOAD_URL?>28MYMcardprn.pdf">Programme Card</a><br />
-                    <a target="_blank" href="<?=DOWNLOAD_URL?>28MYMprogposter.pdf">Programme</a>
+                   <a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpeaker_Profiles_Abstracts.pdf"> Speaker Profiles and Abstracts
+                   </a>
+                </li>
+                <li>   
+                   <a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpecialLecturePoster.pdf">
+                   Special Lectures Poster
+                   </a>
                 </li>
             </ul>
         </div>

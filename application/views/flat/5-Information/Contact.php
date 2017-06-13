@@ -16,7 +16,7 @@
                 <div class="col-md-4">
                     <strong>N. Maheshchandra</strong><br />
                     Executive Secretary<br />
-                    India n Academy of Sciences<br /> 
+                    Indian Academy of Sciences<br /> 
                     Off. Tel.: 080 2266 1203<br />
                     Mob: 09008032004<br />
                     Fax: 080 2361 6094<br />
@@ -25,7 +25,7 @@
                 <div class="col-md-4">
                     <strong>C. S. Ravikumar</strong><br />
                     Assistant Executive Secretary<br />
-                    India n Academy of Sciences<br />
+                    Indian Academy of Sciences<br />
                     Off. Tel.: 080 2266 1207<br />
                     Mob: 09008032002<br />
                     Fax: 080 2361 6094<br />
@@ -33,20 +33,21 @@
                 </div>
             </div>
 
-            <h2>For assistance with regard to logistics and hospitality</h2>
+            <h2>For assistance with logistics and hospitality</h2>
             <p>
                 Venkatarathnam, N (090080 32003, venkat@ias.ac.in)
             </p>            
 
-            <h2>For queries related to airport pick-up and drop</h2>
+            <h2>For assistance with airport pick-up and drop</h2>
             <p>
                 Jayakumar, A (096327 26132)<br /> 
                 Vijaya Kumar (094482 46083)
             </p>           
 
-            <h2>For queries related to local travel</h2>
+            <h2>For assistance with local travel</h2>
             <p>
-                Nagesh, K (098863 24220)    
+                Email: execsec@ias.ac.in<br />
+                Venkatarathnam, N (090080 32003, venkat@ias.ac.in)    
             </p>
  
 
