@@ -63,22 +63,19 @@
 </div>        
 
 
-<!--Speakers -->
-<div class="container-fluid" id="speakers">
+<!--Speakers1 -->
+<div class="container-fluid" id="speakers1">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>Speakers</span></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2">
             <p class="speaker-type">Presided By</p>
             <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
                 <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
                 <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
             </a>
         </div>
-        <div class="col-md-10">
+    </div>
+    <div class="row">    
+        <div class="col-md-12">
         <p class="speaker-type">Sessional Chairs for Inaugural Lectures</p>
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/Madhav_Gadgil.jpg" class="speaker-thumbnail" alt="Madhav Gadgil" title="Madhav Gadgil"/>
@@ -95,7 +92,7 @@
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/Mewa_Singh.jpg" class="speaker-thumbnail" alt="Mewa Singh" title="Mewa Singh"/>
              <figcaption class="figure-caption text-xs-right">Mewa Singh</figcaption>     
-        </a><br />        
+        </a>        
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/G_Krishnamoorthy.jpg" class="speaker-thumbnail" alt="G Krishnamoorthy" title="G Krishnamoorthy"/>
              <figcaption class="figure-caption text-xs-right">G Krishnamoorthy</figcaption>     
@@ -109,9 +106,18 @@
              <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
         </a>        
         </div>    
-    </div>    
+    </div>
+</div>
+
+
+<div class="container-fluid" id="speakers">
     <div class="row">
-        <br /><br /><br /><p class="speaker-type">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
+        <div class="col-md-12">
+            <p class="subtitle fancy"><span>Speakers</span></p>
+        </div>
+    </div>
+    <div class="row">
+    <p class="speaker-type">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
         <a href="<?=BASE_URL?>Speakers/K_Ullas_Karanth">
              <img src="<?=PUBLIC_URL?>images/stock/K_Ullas_Karanth.jpg" class="speaker-thumbnail" alt="K Ullas Karanth" title="K Ullas Karanth"/>
              <figcaption class="figure-caption text-xs-right">K Ullas Karanth</figcaption>     
