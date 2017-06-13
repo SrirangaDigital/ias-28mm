@@ -62,60 +62,59 @@
     </div>
 </div>        
 
-
 <!--Speakers1 -->
-<div class="container-fluid" id="speakers1">
+<div class="container-fluid" id="speakers">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="subtitle fancy"><span>President Chairs and Speakers</span></p>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-12">
             <p class="speaker-type">Presided By</p>
-            <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
+            <a href="<?=BASE_URL?>Schedule?day1,session1F">
                 <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
                 <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
             </a>
         </div>
     </div>
+    <br />
+    <br />
     <div class="row">    
         <div class="col-md-12">
         <p class="speaker-type">Sessional Chairs for Inaugural Lectures</p>
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day1,session1A">
              <img src="<?=PUBLIC_URL?>images/stock/Madhav_Gadgil.jpg" class="speaker-thumbnail" alt="Madhav Gadgil" title="Madhav Gadgil"/>
              <figcaption class="figure-caption text-xs-right">Madhav Gadgil</figcaption>     
         </a>        
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day1,session1B">
              <img src="<?=PUBLIC_URL?>images/stock/H_S_Mani.jpg" class="speaker-thumbnail" alt="H S Mani" title="H S Mani"/>
              <figcaption class="figure-caption text-xs-right">H S Mani</figcaption>     
         </a>        
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day1,session1C">
              <img src="<?=PUBLIC_URL?>images/stock/Saumitra_Das.jpg" class="speaker-thumbnail" alt="Saumitra Das" title="Saumitra Das"/>
              <figcaption class="figure-caption text-xs-right">Saumitra Das</figcaption>     
         </a>        
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day1,session1D">
              <img src="<?=PUBLIC_URL?>images/stock/Mewa_Singh.jpg" class="speaker-thumbnail" alt="Mewa Singh" title="Mewa Singh"/>
              <figcaption class="figure-caption text-xs-right">Mewa Singh</figcaption>     
         </a>        
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day1,session1E">
              <img src="<?=PUBLIC_URL?>images/stock/G_Krishnamoorthy.jpg" class="speaker-thumbnail" alt="G Krishnamoorthy" title="G Krishnamoorthy"/>
              <figcaption class="figure-caption text-xs-right">G Krishnamoorthy</figcaption>     
         </a>        
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day2,session2A">
              <img src="<?=PUBLIC_URL?>images/stock/Namita_Surolia.jpg" class="speaker-thumbnail" alt="Namita Surolia" title="Namita Surolia"/>
              <figcaption class="figure-caption text-xs-right">Namita Surolia</figcaption>     
         </a>        
-        <a href="#">
+        <a href="<?=BASE_URL?>Schedule?day2,session2B">
              <img src="<?=PUBLIC_URL?>images/stock/Debashish_Chowdhury.jpg" class="speaker-thumbnail" alt="Debashish Chowdhury" title="Debashish Chowdhury"/>
              <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
         </a>        
         </div>    
     </div>
-</div>
-
-
-<div class="container-fluid" id="speakers">
-    <div class="row">
-        <div class="col-md-12">
-            <p class="subtitle fancy"><span>Speakers</span></p>
-        </div>
-    </div>
+    <br />    
+    <br />    
     <div class="row">
     <p class="speaker-type">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
         <a href="<?=BASE_URL?>Speakers/K_Ullas_Karanth">
@@ -207,21 +206,21 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <a href="<?=BASE_URL?>Schedule#day1">
+            <a href="<?=BASE_URL?>Schedule?day1">
                 <div id="block1" class="col-md-4 schedule-block">
                     <p class="dayNum">Day 1</p>
                     <p class="date">30th Jun 2017</p>
                     <p class="day">Friday</p>
                 </div>
             </a>
-            <a href="<?=BASE_URL?>Schedule#day2">
+            <a href="<?=BASE_URL?>Schedule?day2">
                 <div id="block2" class="col-md-4 schedule-block">
                     <p class="dayNum">Day 2</p>
                     <p class="date">1st Jul 2017</p>
                     <p class="day">Saturday</p>
                 </div>
             </a>            
-            <a href="<?=BASE_URL?>Schedule#allied">
+            <a href="<?=BASE_URL?>Schedule?allied">
                 <div id="block3" class="col-md-4 schedule-block">
                     <p class="dayNum">Allied Events</p>
                     <p class="date">&nbsp;</p>
