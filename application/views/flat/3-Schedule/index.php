@@ -6,14 +6,32 @@ $(document).ready(function() {
     $('.schedule-text').hide();
 
     var hloc = window.location.href;
-    
+
     var tab = 'day1';
-    if(hloc.match('#')){ tab = hloc.split("#")[1]; }
+    var vLoc = 'grid';
+
+    if(hloc.match(/\?/)){
+
+      var args = ["", ""];
+      args = hloc.split(/\?/)[1].split(",");
+
+      tab = args[0];
+    }
 
     $('#' + tab).show(function(){
 
         $('a[href="#' + tab + '"').parent().addClass('active');
-        $("html, body").animate({scrollTop: 0}, 1);
+
+        var vLocTop = 0;        
+
+        if(!(args[1] == "")) {
+
+          vLoc = args[1];
+          vLocTop = $('#' + vLoc).offset().top - 110;
+        }
+        console.log(vLocTop);
+   
+        $("html, body").animate({scrollTop: vLocTop}, 1);
     });
 
     $('.schedule .nav li a').on('click', function(event){
@@ -53,7 +71,8 @@ $(document).ready(function() {
                 <div class="schedule-text" id="day1">
                     <h3>30 June 2017 (Friday)</h3>
                     <h5>Venue : Faculty Hall, Indian Institute of Science, Bengaluru</h5><br />
-                    <span class="type">Session 1A - Special Lecture (0930 - 1010)</span><br /><br />
+                    <span class="type" id="session1A">Session 1A - Special Lecture (0930 - 1010)</span><br />
+                    <span class="chairperson">Chairperson: Madhav Gadgil, National Center for Cell Science, Pune</span><br />
                     <div class="session">
                         <dl class="dl-horizontal">
                             <dt>
@@ -67,7 +86,9 @@ $(document).ready(function() {
                             </dd>
                         </dl>
                       </div>
-                      <br /><span class="type">Session 1B  - Lectures by Fellows / Associates (1010 - 1055)</span><br /><br />
+                      <br /><span class="type" id="session1B">Session 1B  - Lectures by Fellows / Associates (1010 - 1055)</span><br />
+                      <span class="chairperson">Chairperson: H S Mani, Chennai Mathematical Institute, Chennai</span>
+                      <br />
                     <div class="session">
                         <dl class="dl-horizontal">
                           <dt>
@@ -99,7 +120,9 @@ $(document).ready(function() {
                             <dd>Tea break</dd>
                           </dl>
                         </div>
-                      <br /><span class="type">Session 1C  - Inaugural Lectures by Fellows / Associates(1120-1300)</span><br /><br />                        
+                      <br /><span class="type" id="session1C">Session 1C  - Inaugural Lectures by Fellows / Associates(1120-1300)</span><br />
+                      <span class="chairperson">Chairperson: Saumitra Das, Indian Institute of Science, Bengaluru</span>  
+                      <br />                        
                         <dl class="dl-horizontal">
                           <dt>
                             1120 - 1140<br />
@@ -154,7 +177,9 @@ $(document).ready(function() {
                         </dl>
                     </div>
                     <div class="session">
-                      <span class="type">Session 1D – Inaugural Lectures by Fellows / Associates (1430 - 1540)</span><br /><br />
+                      <span class="type" id="session1D">Session 1D – Inaugural Lectures by Fellows / Associates (1430 - 1540)</span><br />
+                      <span class="chairperson">Chairperson: Mewa Singh, University of Mysore, Mysore</span>
+                      <br />
                       <dl class="dl-horizontal">
                         <dt>
                           1430 - 1450<br />
@@ -196,7 +221,9 @@ $(document).ready(function() {
                             <dd>Tea break</dd>
                           </dl>
                         </div><br/ >
-                        <br /><span class="type">Session 1E  - Inaugural Lectures of Fellows (1605-1720)</span><br /><br />                        
+                        <br /><span class="type" id="session1E">Session 1E  - Inaugural Lectures of Fellows (1605-1720)</span><br />
+                        <span class="chairperson">Chairperson: G Krishnamoorthy, Anna University, Chennai</span>
+                        <br />                        
                         <dl class="dl-horizontal">
                           <dt>
                             1605 - 1625<br />
@@ -232,7 +259,8 @@ $(document).ready(function() {
                         </dl>
                     </div>
                     <div class="session">
-                      <span class="type">Session 1F – Public Lecture (1800 - 1900)</span><br />
+                      <span class="type" id="session1F">Session 1F – Public Lecture (1800 - 1900)</span><br />
+                      <span class="chairperson">Chairperson: R Ramaswamy, Jawaharlal Nehru University, New Delhi</span><br />
                       <dl class="dl-horizontal">
                         <dt>
                           1800 - 1900<br />
@@ -248,7 +276,9 @@ $(document).ready(function() {
                 </div>
                 <div class="schedule-text" id="day2">
                     <h3>1 July 2017 (Saturday)</h3>
-                    <span class="type">Session 2A - Special Lecture (0930–1010)</span><br /><br />
+                    <span class="type" id="session2A">Session 2A - Special Lecture (0930–1010)</span><br />
+                    <span class="chairperson">Chairperson: Namita Surolia, JNCASR, Bengaluru</span>
+                    <br />
                     <div class="session">
                       <dl class="dl-horizontal">
                         <dt>
@@ -262,7 +292,9 @@ $(document).ready(function() {
                         </dd>
                       </dl>
                     </div>
-                    <br /><span class="type">Session 2B – Symposium on ‘Molecular Machines‘ : A multi-disciplinary Enterprise (1010 - 1300)</span><br /><br />
+                    <br /><span class="type" id="session2B">Session 2B – Symposium on ‘Molecular Machines‘ : A multi-disciplinary Enterprise (1010 - 1300)</span><br />
+                    <span class="chairperson">Convener: Debashish Chowdhury, Indian Institute of Technology, Kanpur</span>
+                    <br />
                     <div class="session">
                       <dl class="dl-horizontal">
                         <dt>
