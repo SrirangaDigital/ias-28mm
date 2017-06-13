@@ -401,3 +401,7 @@ img.full-width-image{
 .chairperson{
 	font-weight: bold;
 }
+.vertical-align {
+    display: flex;
+    align-items: center;
+}

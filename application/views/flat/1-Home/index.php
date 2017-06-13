@@ -256,10 +256,15 @@
             <p class="subtitle fancy"><span>Follow</span></p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row vertical-align">
+        <div class="col-md-6">
+            <a class="twitter-timeline"  href="https://twitter.com/search?q=%23Science%20from%3A%40iascbng" data-widget-id="874600019592003588">Tweets about #Science from:@iascbng</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--             <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/IAScBng" data-widget-id="685373181784231936">Tweets by @IAScBng</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>          
+ -->        </div>
+        <div class="col-md-6">
             <a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UC5Aq2JESu0QLmP9WveZSvbQ" class="info-icon"><i class="fa fa-youtube"></i></a>
-            <a target="_blank" title="Twitter" href="https://twitter.com/IAScBng" class="info-icon"><i class="fa fa-twitter"></i></a>
             <a target="_blank" title="Facebook" href="https://www.facebook.com/IAScBng" class="info-icon"><i class="fa fa-facebook"></i></a>
             <a target="_blank" title="Blog" href="http://www.ias.ac.in/public/blog/index.php/about-this-blog/" class="info-icon"><i class="fa fa-wordpress"></i></a>
         </div>
@@ -268,3 +273,5 @@
 
 <script type="text/javascript" src="<?=PUBLIC_URL?>js/common.js" async></script>
 
+<!--             <a target="_blank" title="Twitter" href="https://twitter.com/IAScBng" class="info-icon"><i class="fa fa-twitter"></i></a>
+ -->
