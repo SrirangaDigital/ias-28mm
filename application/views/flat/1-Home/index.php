@@ -10,9 +10,8 @@
                         <img class="small-image" src="<?=PUBLIC_URL?>images/stock/iisc_logo.png">
                         </p>
  -->                        <h2>28<sup>th</sup> Mid Year Meeting</h2>
-                        <p>30<sup>th</sup> June 2017&ndash;1<sup>st</sup> July 2017 <br />Indian Academy of Sciences, Bengaluru<br />
+                        <p>30<sup>th</sup> June 2017&ndash;1<sup>st</sup> July 2017<br /> 
                         Venue: Faculty Hall, Indian Institute of Science<br />
-                        <a href="http://web-japps.ias.ac.in:8080/Midmeeting2017/midyear/register/Register.jsp">Click here for Registration</a>
                         </p>
                     </div>
                 </div>
@@ -39,14 +38,30 @@
         </div>
         <div class="col-md-10">
             <div class="intro">
-                <p>The Indian Academy of Sciences, Bengaluru, through many scientific meetings, symposia, and public lectures it organizes, aims to facilitate scientific exchange among researchers and to highlight novel findings both within the scientific community and the public. The Mid-Year Meetings held during July at Bengaluru and the Annual Meetings held during November at different scientific institutions in the country are the two major annual events of the Academy in this context. The events every year see enthusiastic participation of the Fellowship of the Academy along with researchers, teachers, students and other invitees across the nation.</p>
+                <p>The Indian Academy of Sciences, Bengaluru, through many scientific meetings, symposia, and public lectures it organizes, aims to facilitate exchange of scientific insights among researchers and to highlight novel findings both within the scientific community and the public. The Mid-Year Meetings held during June/July at Bengaluru and the Annual Meetings held during November at different scientific institutions in the country are the two major annual events of the Academy in this context. The events every year see enthusiastic participation of the Fellowship of the Academy along with researchers, teachers, students and other invitees across the nation.</p>
                 <p>The <strong>28th Mid Year Meeting of the Academy</strong> is being organized during <strong>30th June 2017&ndash;1st July 2017 at the Faculty Hall, Indian Institute of Science, Bengaluru.</strong>
-                <a href="http://web-japps.ias.ac.in:8080/Midmeeting2017/midyear/register/Register.jsp">Click here for Registration</a>    
                 </p>
             </div>
         </div>
     </div>        
 </div>
+
+<div class="container-fluid" id="registration">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="subtitle fancy"><span>Registration</span></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-10">
+            <p class="reg">Fellows of the Academy and invited teachers who have not yet registered,<br /> please register <a href="http://web-japps.ias.ac.in:8080/Midmeeting2017/midyear/register/Register.jsp" target="_blank">here</a>
+            </p>
+        </div>
+    </div>
+</div>        
+
 
 <!--Speakers -->
 <div class="container-fluid" id="speakers">
@@ -56,15 +71,15 @@
         </div>
     </div>
     <div class="row">
-        <p class="speaker-type">President</p>
-        <a href="#">
-            <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
-            <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
-        </a>
-    </div>    
-    <div class="row">
-        <br /><br /><br />
-        <p class="speaker-type">Chairperson's for Inaugural Lectures</p>
+        <div class="col-md-2">
+            <p class="speaker-type">Presided By</p>
+            <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
+                <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
+                <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
+            </a>
+        </div>
+        <div class="col-md-10">
+        <p class="speaker-type">Sessional Chairs for Inaugural Lectures</p>
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/Madhav_Gadgil.jpg" class="speaker-thumbnail" alt="Madhav Gadgil" title="Madhav Gadgil"/>
              <figcaption class="figure-caption text-xs-right">Madhav Gadgil</figcaption>     
@@ -80,7 +95,7 @@
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/Mewa_Singh.jpg" class="speaker-thumbnail" alt="Mewa Singh" title="Mewa Singh"/>
              <figcaption class="figure-caption text-xs-right">Mewa Singh</figcaption>     
-        </a>        
+        </a><br />        
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/G_Krishnamoorthy.jpg" class="speaker-thumbnail" alt="G Krishnamoorthy" title="G Krishnamoorthy"/>
              <figcaption class="figure-caption text-xs-right">G Krishnamoorthy</figcaption>     
@@ -88,7 +103,12 @@
         <a href="#">
              <img src="<?=PUBLIC_URL?>images/stock/Namita_Surolia.jpg" class="speaker-thumbnail" alt="Namita Surolia" title="Namita Surolia"/>
              <figcaption class="figure-caption text-xs-right">Namita Surolia</figcaption>     
-        </a>
+        </a>        
+        <a href="#">
+             <img src="<?=PUBLIC_URL?>images/stock/Debashish_Chowdhury.jpg" class="speaker-thumbnail" alt="Debashish Chowdhury" title="Debashish Chowdhury"/>
+             <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
+        </a>        
+        </div>    
     </div>    
     <div class="row">
         <br /><br /><br /><p class="speaker-type">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
@@ -215,13 +235,11 @@
     </div>
     <div class="row" style="line-height: 150px">
         <div class="col-md-12">
-            <a href="#" class="info-icon"><i class="fa fa-list-ul"></i><br />List of Participants</a>
             <a href="<?=BASE_URL?>Information/Venue" class="info-icon"><i class="fa fa-map-marker"></i><br />Venue</a>
             <a href="<?=BASE_URL?>Information/Accommodation" class="info-icon"><i class="fa fa-bed"></i><br />Accommodation</a>
             <a href="<?=BASE_URL?>Information/Transport" class="info-icon"><i class="fa fa-bus"></i><br />Transport</a><br />
             <a href="<?=BASE_URL?>Information/Contact" class="info-icon"><i class="fa fa-phone"></i><br />Contact</a>
             <a href="<?=BASE_URL?>Information/Downloads" class="info-icon"><i class="fa fa-download"></i><br />Downloads</a>
-            <a href="#" class="info-icon"><i class="fa fa-ellipsis-h"></i><br />Other information</a>
         </div>
     </div>
 </div>
