@@ -1,29 +1,6 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<!-- <div class="container-fluid" id="home">
-    <div class="row first-row">
-        <div class="col-md-12 clear-paddings">
-            <div class="fixOverlayDiv">
-                <img class="img-responsive full-width-image" src="<?=PUBLIC_URL?>images/stock/iisc3.jpg">
-                <div class="OverlayTextMain">
-                    <div class="mainpage">
-                        <h2>28<sup>th</sup> Mid Year Meeting</h2>
-                        <p>30<sup>th</sup> June 2017&ndash;1<sup>st</sup> July 2017<br /> 
-                        Venue: Faculty Hall, Indian Institute of Science<br />
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <div class="container">
-    <!-- <div class="row">
-        <div class="col-md-12 gap-above">
-            <p class="text-right text-italic text-bold">“Nothing in science has any value to society if it is not communicated, and scientists are beginning to learn their social obligations.”<br />
-            — Anne Roe,The Making of a Scientist (1953)</p>
-        </div>
-    </div> -->
     <div class="row">
         <div class="col-md-2">
             <div class="intro logos">
