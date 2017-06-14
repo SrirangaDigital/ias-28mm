@@ -15,7 +15,6 @@
         <li><a href="<?=BASE_URL?>Information/Transport" target="_blank">Transport</a></li>
         <li><a href="<?=BASE_URL?>Information/Press_and_Media" target="_blank">Press and Media</a></li>
         <li><a href="<?=BASE_URL?>page/flat/Information/Contact" target="_blank">Contact</a></li>
-        <li><a href="#" target="_blank">Other Information</a></li>
     </ul>    
 
     <h1>Downloads</h1>
