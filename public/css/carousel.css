@@ -65,10 +65,10 @@
 }
 .override-carousel-caption {
     position: absolute;
-    border-top: 3px solid #ea5644;
+    /*border-top: 3px solid #ea5644;*/
 }
 .caption-content {
-    padding: 30px;
+    padding: 10px 30px 20px 30px;
 }
 .caption-title {
     font-weight: 700;
@@ -101,11 +101,10 @@
 .pos-c-full, .pos-c-2-3 {
     bottom: 0;
     text-align: center;
-    border-top: none;
 }
 .scheme-dark {
     color: #FFF;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);

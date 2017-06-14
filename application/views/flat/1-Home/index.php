@@ -1,15 +1,12 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<div class="container-fluid" id="home">
+<!-- <div class="container-fluid" id="home">
     <div class="row first-row">
         <div class="col-md-12 clear-paddings">
             <div class="fixOverlayDiv">
                 <img class="img-responsive full-width-image" src="<?=PUBLIC_URL?>images/stock/iisc3.jpg">
                 <div class="OverlayTextMain">
                     <div class="mainpage">
-<!--                         <p><img class="small-image" src="<?=PUBLIC_URL?>images/logo.png">
-                        <img class="small-image" src="<?=PUBLIC_URL?>images/stock/iisc_logo.png">
-                        </p>
- -->                        <h2>28<sup>th</sup> Mid Year Meeting</h2>
+                        <h2>28<sup>th</sup> Mid Year Meeting</h2>
                         <p>30<sup>th</sup> June 2017&ndash;1<sup>st</sup> July 2017<br /> 
                         Venue: Faculty Hall, Indian Institute of Science<br />
                         </p>
@@ -18,7 +15,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container">
     <!-- <div class="row">
@@ -32,7 +29,7 @@
             <div class="intro logos">
                 <p>
                     <img src="<?=PUBLIC_URL?>images/logo.png" alt="IAS Logo" /><br />
-                    <!-- <img src="<?=PUBLIC_URL?>images/stock/iiser-bhopal-logo.png" alt="IISER Bhopal Logo" /> -->
+                    <img src="<?=PUBLIC_URL?>images/stock/iisc_logo.png" alt="IISc Logo" />
                 </p>
             </div>
         </div>
@@ -66,7 +63,7 @@
 <div class="container-fluid" id="speakers">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>President Chairs and Speakers</span></p>
+            <p class="subtitle fancy"><span>Dignitaries and Speakers</span></p>
         </div>
     </div>
     <div class="row">
@@ -78,11 +75,9 @@
             </a>
         </div>
     </div>
-    <br />
-    <br />
     <div class="row">    
         <div class="col-md-12">
-        <p class="speaker-type">Sessional Chairs for Inaugural Lectures</p>
+        <p class="speaker-type gap-above">Sessional Chairs for Inaugural Lectures</p>
         <a href="<?=BASE_URL?>Schedule?day1,session1A">
              <img src="<?=PUBLIC_URL?>images/stock/Madhav_Gadgil.jpg" class="speaker-thumbnail" alt="Madhav Gadgil" title="Madhav Gadgil"/>
              <figcaption class="figure-caption text-xs-right">Madhav Gadgil</figcaption>     
@@ -112,11 +107,9 @@
              <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
         </a>        
         </div>    
-    </div>
-    <br />    
-    <br />    
+    </div>   
     <div class="row">
-    <p class="speaker-type">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
+    <p class="speaker-type gap-above">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
         <a href="<?=BASE_URL?>Speakers/K_Ullas_Karanth">
              <img src="<?=PUBLIC_URL?>images/stock/K_Ullas_Karanth.jpg" class="speaker-thumbnail" alt="K Ullas Karanth" title="K Ullas Karanth"/>
              <figcaption class="figure-caption text-xs-right">K Ullas Karanth</figcaption>     
@@ -250,7 +243,7 @@
 </div>
 
 <!-- Information for participants -->
-<div class="container-fluid gap-below-large" id="social">
+<div class="container gap-below-large" id="social">
     <div class="row">
         <div class="col-md-12">
             <p class="subtitle fancy"><span>Follow</span></p>
@@ -258,12 +251,14 @@
     </div>
     <div class="row vertical-align">
         <div class="col-md-6">
-            <a class="twitter-timeline"  href="https://twitter.com/search?q=%23Science%20from%3A%40iascbng" data-widget-id="874600019592003588">Tweets about #Science from:@iascbng</a>
+<!--             <a class="twitter-timeline"  href="https://twitter.com/search?q=%23Science%20from%3A%40iascbng" data-widget-id="874600019592003588">Tweets about #Science from:@iascbng</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<!--             <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/IAScBng" data-widget-id="685373181784231936">Tweets by @IAScBng</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>          
- -->        </div>
-        <div class="col-md-6">
+ -->
+            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/IAScBng" data-widget-id="685373181784231936">Tweets by @IAScBng</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </div>
+        <div class="col-md-6 text-center">
             <a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UC5Aq2JESu0QLmP9WveZSvbQ" class="info-icon"><i class="fa fa-youtube"></i></a>
             <a target="_blank" title="Facebook" href="https://www.facebook.com/IAScBng" class="info-icon"><i class="fa fa-facebook"></i></a>
             <a target="_blank" title="Blog" href="http://www.ias.ac.in/public/blog/index.php/about-this-blog/" class="info-icon"><i class="fa fa-wordpress"></i></a>
