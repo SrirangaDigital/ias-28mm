@@ -40,6 +40,7 @@
 
             <h2>For assistance with airport pick-up and drop</h2>
             <p>
+                Venkatarathnam, N (090080 32003, venkat@ias.ac.in)<br />
                 Jayakumar, A (096327 26132)<br /> 
                 Vijaya Kumar (094482 46083)
             </p>           

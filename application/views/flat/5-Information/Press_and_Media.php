@@ -17,7 +17,7 @@
             <p>
                 You will hear about the latest research in Indian Science and have the opportunity to interact with the fellows of the Academy to discuss what is happening right now with Science in India. Topics for the various sessions range from Nano-Bullets to Quantum Matter to Caretaker Tumour Suppressors.
             </p>
-            <h2>Other program highlights include:</h2>
+            <h2>Other programme highlights include:</h2>
             <ul>
                 <li>Public Lecture by A.R. Venkatachalapathy on <i>C. Subramania Bharati: Nationalism and Creativity</i></li>
                 <li>Special Lecture by K. Ullas Karanth on <i>Conservation Science at Macro-Ecological Scales</i></li>
@@ -29,7 +29,7 @@
             </p>
             <p>
                 Social Media: As the 28<sup>th</sup> Mid-Year Meeting approaches, journalists can stay up-to-date on sessions and information by following the IASc Social Media pages on 
-                <a href="https://www.facebook.com/pages/Indian-Academy-of-Sciences/310230879076793" target="_blank">Facebook</a>, <a href="https://twitter.com/search?f=tweets&q=%23IASc28MYM" target="_blank">Twitter</a> and by using the hashtag <strong>#IASc28MYM</strong> for meeting-related tweets.
+                <a href="https://www.facebook.com/IAScBng" target="_blank">Facebook</a>, <a href="https://twitter.com/IAScBng" target="_blank">Twitter</a> and by using the hashtag <strong>#IASc28MYM</strong> for meeting-related tweets.
             </p>
                 Contact <strong>Geetha Sugumaran</strong> at geethas@ias.ac.in to stay up-to-date on the latest news and information about the 28<sup>th</sup> Mid-Year Meeting
             </p>

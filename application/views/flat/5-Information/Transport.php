@@ -11,7 +11,7 @@
         <div class="col-md-9 main">
             <h1>Local Transport</h1>
             <p>
-                The Academy office has madde airport pick-up / drop-off arrangements as per
+                The Academy office has made airport pick-up / drop-off arrangements as per
                 the timings of the arrival / departure communicated by the Fellows / Speakers
                 / Editorial Board Memebers. Detailed information on this will be sent separately to the participants
             </p>   
@@ -24,6 +24,7 @@
 
             <h2>For assistance with local travel</h2>
             <p>
+                Email: execsec@ias.ac.in<br />
                 Venkatarathnam, N (090080 32003, venkat@ias.ac.in)    
             </p>            
 
