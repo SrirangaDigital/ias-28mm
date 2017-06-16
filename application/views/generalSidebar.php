@@ -20,7 +20,7 @@
     <h1>Downloads</h1>
     <ul>
         <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgPoster.pdf">Programme Poster</a></li>
-        <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgBrochure.pdf">Program Brochure</a></li>
+        <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMProgBrochure.pdf">Programme Brochure</a></li>
         <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpeaker_Profiles_Abstracts.pdf">Speaker Profiles and Abstracts</a></li>
         <li><a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpecialLecturePoster.pdf">Special Lectures Poster</a></li>
     </ul>
