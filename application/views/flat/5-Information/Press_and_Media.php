@@ -15,7 +15,7 @@
                 The Mid-Year meeting of the Indian Academy of sciences is a formal convergence of Fellows and Associates of the Academy, and invited teachers and students. With 12 inaugural lectures by newly elected fellows, 2 special lectures, 1 public lecture, and a symposium on Molecular machines, the 28th Mid-Year Meeting is a scientific event to look forward to.                
             </p>
             <p>
-                You will hear about the latest research in Indian Science and have the opportunity to interact with the fellows of the Academy to discuss what is happening right now with Science in India. Topics for the various sessions range from Nano-Bullets to Quantum Matter to Caretaker Tumour Suppressors.
+                You will hear about the latest research works of the Fellows of the Academy and have the opportunity to interact with the fellows of the Academy to discuss what is happening right now with Science in India. Topics for the various sessions range from Nano-Bullets to Quantum Matter to Caretaker Tumour Suppressors.
             </p>
             <h2>Other programme highlights include:</h2>
             <ul>
