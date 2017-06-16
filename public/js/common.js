@@ -20,9 +20,12 @@ $(document).ready(function() {
     }
     
     var hloc = window.location.href;
+
+    var navHeight = $(".navbar").outerHeight();
+
     if(hloc.match('#')){
 
-        var jumpLoc = $( '#' + hloc.split("#")[1] ).offset().top - 110;
+        var jumpLoc = $( '#' + hloc.split("#")[1] ).offset().top - navHeight;
 
         $("html, body").animate({scrollTop: jumpLoc}, 1);
     }
@@ -31,7 +34,7 @@ $(document).ready(function() {
 
         // event.preventDefault();
 
-        var jumpLoc = $( '#' + $( this ).attr( "href" ).split('#')[1] ).offset().top - 110;
+        var jumpLoc = $( '#' + $( this ).attr( "href" ).split('#')[1] ).offset().top - navHeight;
 
         $("html, body").animate({scrollTop: jumpLoc}, 100);
     });   
@@ -40,7 +43,7 @@ $(document).ready(function() {
 
         // event.preventDefault();
 
-        var jumpLoc = $( '#' + $( this ).attr( "href" ).split('#')[1] ).offset().top - 110;
+        var jumpLoc = $( '#' + $( this ).attr( "href" ).split('#')[1] ).offset().top - navHeight;
 
         $("html, body").animate({scrollTop: jumpLoc}, 100);
     });
