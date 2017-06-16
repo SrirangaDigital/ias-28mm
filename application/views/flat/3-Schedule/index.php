@@ -27,10 +27,11 @@ $(document).ready(function() {
         if(!(args[1] == "")) {
 
           vLoc = args[1];
-          vLocTop = $('#' + vLoc).offset().top - 110;
-        }
-        console.log(vLocTop);
-   
+          vLocTop = $('#' + vLoc).offset().top - $(".navbar").outerHeight();
+        }     
+
+
+  
         $("html, body").animate({scrollTop: vLocTop}, 1);
     });
 
@@ -77,7 +78,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                             <dt>
                                 0930 - 1010<br />
-                                <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                                <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/K_Ullas_Karanth"><i class="fa fa-info-circle"></i></a></div>
                             </dt>
                             <dd>
                                <span class="speaker">K. Ullas Karanth</span><br />
@@ -86,14 +87,14 @@ $(document).ready(function() {
                             </dd>
                         </dl>
                       </div>
-                      <br /><span class="type" id="session1B">Session 1B  - Lectures by Fellows / Associates (1010 - 1055)</span><br />
+                      <br /><span class="type" id="session1B">Session 1B  - Inaugural Lectures of Fellows (1010 - 1055)</span><br />
                       <span class="chairperson">Chairperson: H S Mani, Chennai Mathematical Institute, Chennai</span>
                       <br />
                     <div class="session">
                         <dl class="dl-horizontal">
                           <dt>
                             1010 - 1030<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/V_Subramanian"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">V. Subramanian</span><br />
@@ -104,7 +105,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1035 - 1055<br />
-                              <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                              <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Sumathi_Rao"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Sumathi Rao</span><br />
@@ -120,13 +121,13 @@ $(document).ready(function() {
                             <dd>Tea break</dd>
                           </dl>
                         </div>
-                      <br /><span class="type" id="session1C">Session 1C  - Inaugural Lectures by Fellows / Associates(1120-1300)</span><br />
+                      <br /><span class="type" id="session1C">Session 1C  - Inaugural Lectures of Fellows / Associates(1120-1300)</span><br />
                       <span class="chairperson">Chairperson: Saumitra Das, Indian Institute of Science, Bengaluru</span>  
                       <br />                        
                         <dl class="dl-horizontal">
                           <dt>
                             1120 - 1140<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Debabrata_Dash"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Debabrata Dash</span><br />
@@ -137,7 +138,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1145 - 1205<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Suman_K_Dhar"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Suman K. Dhar</span><br />
@@ -148,7 +149,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1210 - 1230<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Arvind_Ayyer"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Arvind Ayyer</span><br />
@@ -159,7 +160,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1235 - 1255<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Pallab_Dasgupta"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Pallab Dasgupta</span><br />
@@ -177,13 +178,13 @@ $(document).ready(function() {
                         </dl>
                     </div>
                     <div class="session">
-                      <span class="type" id="session1D">Session 1D – Inaugural Lectures by Fellows / Associates (1430 - 1540)</span><br />
+                      <span class="type" id="session1D">Session 1D – Inaugural Lectures of Fellows / Associates (1430 - 1540)</span><br />
                       <span class="chairperson">Chairperson: Mewa Singh, University of Mysore, Mysore</span>
                       <br />
                       <dl class="dl-horizontal">
                         <dt>
                           1430 - 1450<br />
-                          <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                          <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Raghavan_Krishnan"><i class="fa fa-info-circle"></i></a></div>
                         </dt>
                         <dd>
                           <span class="speaker">Raghavan Krishnan</span><br />
@@ -194,7 +195,7 @@ $(document).ready(function() {
                       <dl class="dl-horizontal">
                         <dt>
                           1455 - 1515<br />
-                          <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                          <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Amitava_Patra"><i class="fa fa-info-circle"></i></a></div>
                         </dt>
                         <dd>
                           <span class="speaker">Amitava Patra</span><br />
@@ -205,7 +206,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1520 - 1540<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Ranjit_Thapa"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Ranjit Thapa</span><br />
@@ -227,7 +228,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1605 - 1625<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Siva_R_Athreya"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Siva R. Athreya</span><br />
@@ -238,7 +239,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1630 - 1650<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Mitali_Chatterjee"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Mitali Chatterjee</span><br />
@@ -249,7 +250,7 @@ $(document).ready(function() {
                         <dl class="dl-horizontal">
                           <dt>
                             1655 - 1715<br />
-                            <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Sagar_Sengupta"><i class="fa fa-info-circle"></i></a></div>
                           </dt>
                           <dd>
                             <span class="speaker">Sagar Sengupta</span><br />
@@ -264,7 +265,7 @@ $(document).ready(function() {
                       <dl class="dl-horizontal">
                         <dt>
                           1800 - 1900<br />
-                          <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                          <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/A_R_Venkatachalapathy"><i class="fa fa-info-circle"></i></a></div>
                         </dt>
                         <dd>
                           <span class="speaker">A.R. Venkatachalapathy</span><br />
@@ -276,14 +277,21 @@ $(document).ready(function() {
                 </div>
                 <div class="schedule-text" id="day2">
                     <h3>1 July 2017 (Saturday)</h3>
-                    <span class="type" id="session2A">Session 2A - Special Lecture (0930–1010)</span><br />
-                    <span class="chairperson">Chairperson: Namita Surolia, JNCASR, Bengaluru</span>
+                    <span class="type" id="session2A">
+                      Session 2A - Special Lecture (0930–1010)
+                    </span><br />
+                    <span class="chairperson">
+                      Chairperson: Namita Surolia, JNCASR, Bengaluru
+                    </span>
                     <br />
                     <div class="session">
                       <dl class="dl-horizontal">
                         <dt>
                           0930 - 1010<br />
-                          <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                          <div class="more-info">
+                            <a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Gagandeep_Kang"><i class="fa fa-info-circle"></i>
+                            </a>
+                          </div>
                         </dt>
                         <dd>
                           <span class="speaker">Gagandeep Kang</span><br />
@@ -292,14 +300,36 @@ $(document).ready(function() {
                         </dd>
                       </dl>
                     </div>
-                    <br /><span class="type" id="session2B">Session 2B – Symposium on ‘Molecular Machines‘ : A multi-disciplinary Enterprise (1010 - 1300)</span><br />
-                    <span class="chairperson">Convener: Debashish Chowdhury, Indian Institute of Technology, Kanpur</span>
+                    <br />
+                    <span class="type" id="session2B">
+                      Session 2B – Symposium on ‘Molecular Machines‘ : A multi-disciplinary Enterprise (1010 - 1300)
+                    </span><br />
+                    <span class="chairperson">
+                      Convener: Debashish Chowdhury, Indian Institute of Technology, Kanpur
+                    </span>
                     <br />
                     <div class="session">
                       <dl class="dl-horizontal">
                         <dt>
+                          1010 - 1020<br />
+                          <div class="more-info">
+                            <a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Debashish_Chowdhury"><i class="fa fa-info-circle"></i>
+                            </a>
+                          </div>
+                        </dt>
+                        <dd>
+                          <span class="speaker">Debashish Chowdhury</span><br />
+                          IIT, Kanpur<br/ >
+                          <span class="talk">Introduction</span>
+                        </dd>
+                      </dl><br />                      
+                      <dl class="dl-horizontal">
+                        <dt>
                           1020 - 1050<br />
-                          <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
+                          <div class="more-info">
+                            <a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Debashish_Chowdhury"><i class="fa fa-info-circle"></i>
+                            </a>
+                          </div>
                         </dt>
                         <dd>
                           <span class="speaker">Debashish Chowdhury</span><br />
@@ -307,56 +337,56 @@ $(document).ready(function() {
                           <span class="talk">Noise and Nonequilibrium in Nano-machine Operation: A Physics Perspective.</span>
                         </dd>
                       </dl><br />
-                    <div class="break">
+                      <div class="break">
+                        <dl class="dl-horizontal">
+                          <dt>
+                            1050 - 1110
+                          </dt>
+                          <dd>Tea break</dd>
+                        </dl>
+                      </div><br/ >
                       <dl class="dl-horizontal">
                         <dt>
-                          1050 - 1110
+                          1110 - 1140<br />
+                          <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Roop_Mallik"><i class="fa fa-info-circle"></i></a></div>
                         </dt>
-                        <dd>Tea break</dd>
+                        <dd>
+                          <span class="speaker">Roop Mallik</span><br />
+                          TIFR, Mumbai<br/ >
+                          <span class="talk">Teamwork in Molecular Motors: A Cell Biology Perspective.</span>
+                        </dd>
                       </dl>
-                    </div><br/ >
-                    <dl class="dl-horizontal">
-                      <dt>
-                        1110 - 1140<br />
-                        <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Roop Mallik</span><br />
-                        TIFR, Mumbai<br/ >
-                        <span class="talk">Teamwork in Molecular Motors: A Cell Biology Perspective.</span>
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        1140 - 1210<br />
-                          <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Tanweer Hussain</span><br />
-                        IISc, Bengaluru<br/ >
-                        <span class="talk">Understanding the Principles of Design of Molecular Machines: A Structural Biology Perspective.</span>
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                      <dt>
-                        1210 - 1240<br />
-                        <div class="more-info"><a target="_blank" title="More Information" href="javascript:void();"><i class="fa fa-info-circle"></i></a></div>
-                      </dt>
-                      <dd>
-                        <span class="speaker">Pradyut Ghosh</span><br />
-                        IASc, Bengaluru<br/ >
-                        <span class="talk">Synthetic Small Molecules as Machines: A Chemistry Perspective.</span>
-                      </dd>
-                    </dl>
-                  </div>
-                  <div class="break">
                       <dl class="dl-horizontal">
                         <dt>
-                          1300 - 1400
+                          1140 - 1210<br />
+                            <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Tanweer_Hussain"><i class="fa fa-info-circle"></i></a></div>
                         </dt>
-                        <dd>Lunch break</dd>
+                        <dd>
+                          <span class="speaker">Tanweer Hussain</span><br />
+                          IISc, Bengaluru<br/ >
+                          <span class="talk">Understanding the Principles of Design of Molecular Machines: A Structural Biology Perspective.</span>
+                        </dd>
                       </dl>
-                    </div>
+                      <dl class="dl-horizontal">
+                        <dt>
+                          1210 - 1240<br />
+                          <div class="more-info"><a target="_blank" title="More Information" href="<?=BASE_URL?>Speakers/Pradyut_Ghosh"><i class="fa fa-info-circle"></i></a></div>
+                        </dt>
+                        <dd>
+                          <span class="speaker">Pradyut Ghosh</span><br />
+                          IASc, Bengaluru<br/ >
+                          <span class="talk">Synthetic Small Molecules as Machines: A Chemistry Perspective.</span>
+                        </dd>
+                      </dl>
+                      <div class="break">
+                        <dl class="dl-horizontal">
+                          <dt>
+                            1300 - 1400
+                          </dt>
+                          <dd>Lunch break</dd>
+                        </dl>
+                      </div>
+                    </div>              
                 </div>
                 <div class="schedule-text" id="allied">
                   <h3>Meetings</h3>
@@ -365,7 +395,7 @@ $(document).ready(function() {
                     <dl class="dl-horizontal">
                       <dt>
                         1000 - 1300<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Journal of Genetics Editorial Board Meeting</span><br />
@@ -375,7 +405,7 @@ $(document).ready(function() {
                     <dl class="dl-horizontal">
                       <dt>
                         1100 - 1300<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Science Education Panel : Symposium / Lectures for Invited teachers and SRFs</span><br />
@@ -385,7 +415,7 @@ $(document).ready(function() {
                     <dl class="dl-horizontal">
                       <dt>
                         1700 onwards<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Science Education Panel : Teachers' interactive meeting</span><br />
@@ -395,7 +425,7 @@ $(document).ready(function() {
                     <dl class="dl-horizontal">
                       <dt>
                         1600 - 1800<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Bulletin of Materials Science Editorial Board meeting</span><br />
@@ -405,7 +435,7 @@ $(document).ready(function() {
                     <dl class="dl-horizontal">
                       <dt>
                         1800 onwards<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Joint Science Education Panel meeting</span><br />
@@ -413,13 +443,12 @@ $(document).ready(function() {
                       </dd>
                     </dl>
                   </div>
-                  <h3>Council Meeting</h3>
                   <h3>01 July 2017 (Saturday)</h3>
                   <div class="session">
                     <dl class="dl-horizontal">
                       <dt>
                         1500<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Council Meeting</span><br />
@@ -429,7 +458,7 @@ $(document).ready(function() {
                     <dl class="dl-horizontal">
                       <dt>
                         1500<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"><i class="fa fa-info-circle"></i></a></div>
+                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Journal of Astrophysics and Astronomy Editorial Board Meeting</span><br />
