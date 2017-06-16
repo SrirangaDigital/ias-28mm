@@ -121,15 +121,6 @@
              <figcaption class="figure-caption text-xs-right">Pradyu Ghosh</figcaption>     
         </a>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <p class="speaker-type gap-above">Presided By</p>
-            <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
-                <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
-                <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
-            </a>
-        </div>
-    </div>
     <div class="row">    
         <div class="col-md-12">
         <p class="speaker-type gap-above">Sessional Chairs for Inaugural Lectures</p>
@@ -162,6 +153,15 @@
              <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
         </a>        
         </div>    
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="speaker-type gap-above">Presided By</p>
+            <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
+                <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
+                <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
+            </a>
+        </div>
     </div>
 </div>
 
