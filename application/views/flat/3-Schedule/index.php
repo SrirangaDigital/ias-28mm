@@ -9,10 +9,10 @@ $(document).ready(function() {
 
     var tab = 'day1';
     var vLoc = 'grid';
+    var args = ["", ""];
 
     if(hloc.match(/\?/)){
 
-      var args = ["", ""];
       args = hloc.split(/\?/)[1].split(",");
 
       tab = args[0];
@@ -30,8 +30,6 @@ $(document).ready(function() {
           vLocTop = $('#' + vLoc).offset().top - $(".navbar").outerHeight();
         }     
 
-
-  
         $("html, body").animate({scrollTop: vLocTop}, 1);
     });
 
@@ -39,9 +37,12 @@ $(document).ready(function() {
 
         event.preventDefault();
         tab = $(this).attr('href');
+    
+
         $('.schedule-text').hide();
+
         $(tab).show(function(){
-            
+
             window.location.hash = tab;
             $("html, body").animate({scrollTop: 0}, 1);
         });
