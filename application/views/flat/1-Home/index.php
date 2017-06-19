@@ -1,6 +1,31 @@
+<script type="text/javascript">
+$(document).ready(function() {
+
+    var htmlWidth = $('html').outerWidth();
+
+    if(htmlWidth >= 768)
+        $('#social .info-icon i').css("line-height", $('#twitterContainer').height() + "px");
+
+    var containerWidth = $('.container').outerWidth();
+
+    var gutter = $('.fancy .text').css('margin-left').replace("px", "");
+
+    $('.fancy .text').each(function(){
+
+        $(this).before('<span class="before">&nbsp;</span>');
+        $(this).after('<span class="after">&nbsp;</span>');
+
+        var fancyWidth = Math.round((containerWidth - $(this).outerWidth() - (2 * gutter)) / 2);
+
+        $(this).prev('.before').css("width", fancyWidth);
+        $(this).next('.after').css("width", fancyWidth);
+    });    
+});
+</script>
+
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
-<div class="container">
+<div class="container clear-paddings">
     <div class="row">
         <div class="col-md-2">
             <div class="intro logos">
@@ -20,27 +45,24 @@
     </div>        
 </div>
 
-<div class="container-fluid" id="registration">
+<div class="container clear-paddings" id="registration">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>Registration</span></p>
+            <p class="subtitle fancy"><span class="text">Registration</span></p>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-10">
-            <p class="reg">Fellows of the Academy and invited teachers who have not yet registered,<br /> please register <a href="http://web-japps.ias.ac.in:8080/Midmeeting2017/midyear/register/Register.jsp" target="_blank">here</a>
-            </p>
+        <div class="col-md-12">
+            <p class="reg">Fellows of the Academy and invited teachers who have not yet registered,<br /> please register <a href="http://web-japps.ias.ac.in:8080/Midmeeting2017/midyear/register/Register.jsp" target="_blank">here</a></p>
         </div>
     </div>
 </div>        
 
 <!--Speakers1 -->
-<div class="container-fluid" id="speakers">
+<div class="container clear-paddings" id="speakers">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>Speakers</span></p>
+            <p class="subtitle fancy"><span class="text">Speakers</span></p>
         </div>
     </div>
     <div class="row">
@@ -167,10 +189,10 @@
 </div>
 
 <!-- Schedule -->
-<div class="container-fluid" id="schedule">
+<div class="container clear-paddings" id="schedule">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>Schedule</span></p>
+            <p class="subtitle fancy"><span class="text">Schedule</span></p>
         </div>
     </div>
     <div class="row">
@@ -201,10 +223,10 @@
 </div>
 
 <!-- Information for participants -->
-<div class="container-fluid" id="information">
+<div class="container clear-paddings" id="information">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>For Participants</span></p>
+            <p class="subtitle fancy"><span class="text">For Participants</span></p>
         </div>
     </div>
     <div class="row" style="line-height: 150px">
@@ -219,18 +241,18 @@
 </div>
 
 <!-- Information for participants -->
-<div class="container gap-below-large" id="social">
+<div class="container clear-paddings" id="social">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span>Follow</span></p>
+            <p class="subtitle fancy"><span class="text">Follow</span></p>
         </div>
     </div>
-    <div class="row vertical-align">
-        <div class="col-md-6">
+    <div class="row" id="twitterContainer">
+        <div class="col-md-6 col-sm-12">
             <a class="twitter-timeline"  href="https://twitter.com/search?q=%23IASc28MYM%20from%3A%40IAScBng" data-widget-id="874600019592003588">Tweets about #IASc28MYM from:@IAScBng</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center col-sm-12">
             <a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UC5Aq2JESu0QLmP9WveZSvbQ" class="info-icon"><i class="fa fa-youtube"></i></a>
             <a target="_blank" title="Facebook" href="https://www.facebook.com/IAScBng" class="info-icon"><i class="fa fa-facebook"></i></a>
             <a target="_blank" title="Blog" href="http://www.ias.ac.in/public/blog/index.php/about-this-blog/" class="info-icon"><i class="fa fa-wordpress"></i></a>
