@@ -27,10 +27,10 @@ $(document).ready(function() {
 
 <div class="container clear-paddings">
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-12">
             <div class="intro logos">
                 <p>
-                    <img src="<?=PUBLIC_URL?>images/logo.png" alt="IAS Logo" /><br />
+                    <img src="<?=PUBLIC_URL?>images/logo.png" alt="IAS Logo" />
                     <img src="<?=PUBLIC_URL?>images/stock/iisc_logo.png" alt="IISc Logo" />
                 </p>
             </div>

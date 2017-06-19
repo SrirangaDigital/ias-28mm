@@ -693,17 +693,17 @@ button.toggle-button{
 
 /*Home page styles*/
 .logos{
-  text-align: right;
+  text-align: center;
 }
 .logos img{
   width: 100px;
   margin: 20px 0;
 }
 .intro{
-  width: 80%;
+  width: 90%;
   font-size: 16px;
   line-height: 32px;
-  margin: 50px 0 0px 20px;
+  margin: 20px 0 0px 20px;
 }
 
 /*Main page styles*/
@@ -850,3 +850,12 @@ button.toggle-button{
   float: right;
   font-size: 0.8em;
  }
+ @media (min-width: 768px) {
+   .intro{
+      width: 80%;
+      margin: 50px 0 0px 20px;
+   }
+   .logos{
+    text-align: right;
+  }
+}
