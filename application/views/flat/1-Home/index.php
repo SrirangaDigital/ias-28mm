@@ -42,8 +42,51 @@
         <div class="col-md-12">
             <p class="subtitle fancy"><span>Speakers</span></p>
         </div>
-    </div> 
+    </div>
     <div class="row">
+        <div class="col-md-12">
+            <p class="speaker-type">Presided By</p>
+            <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
+                <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
+                <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
+            </a>
+        </div>
+    </div>
+    <div class="row">    
+        <div class="col-md-12">
+        <p class="speaker-type gap-above">Sessional Chairs for Inaugural Lectures</p>
+        <a href="<?=BASE_URL?>Schedule?day1,session1A">
+             <img src="<?=PUBLIC_URL?>images/stock/Madhav_Gadgil.jpg" class="speaker-thumbnail" alt="Madhav Gadgil" title="Madhav Gadgil"/>
+             <figcaption class="figure-caption text-xs-right">Madhav Gadgil</figcaption>     
+        </a>        
+        <a href="<?=BASE_URL?>Schedule?day1,session1B">
+             <img src="<?=PUBLIC_URL?>images/stock/H_S_Mani.jpg" class="speaker-thumbnail" alt="H S Mani" title="H S Mani"/>
+             <figcaption class="figure-caption text-xs-right">H S Mani</figcaption>     
+        </a>        
+        <a href="<?=BASE_URL?>Schedule?day1,session1C">
+             <img src="<?=PUBLIC_URL?>images/stock/Saumitra_Das.jpg" class="speaker-thumbnail" alt="Saumitra Das" title="Saumitra Das"/>
+             <figcaption class="figure-caption text-xs-right">Saumitra Das</figcaption>     
+        </a>        
+        <a href="<?=BASE_URL?>Schedule?day1,session1D">
+             <img src="<?=PUBLIC_URL?>images/stock/Mewa_Singh.jpg" class="speaker-thumbnail" alt="Mewa Singh" title="Mewa Singh"/>
+             <figcaption class="figure-caption text-xs-right">Mewa Singh</figcaption>     
+        </a>        
+        <a href="<?=BASE_URL?>Schedule?day1,session1E">
+             <img src="<?=PUBLIC_URL?>images/stock/G_Krishnamoorthy.jpg" class="speaker-thumbnail" alt="G Krishnamoorthy" title="G Krishnamoorthy"/>
+             <figcaption class="figure-caption text-xs-right">G Krishnamoorthy</figcaption>     
+        </a>        
+        <a href="<?=BASE_URL?>Schedule?day2,session2A">
+             <img src="<?=PUBLIC_URL?>images/stock/Namita_Surolia.jpg" class="speaker-thumbnail" alt="Namita Surolia" title="Namita Surolia"/>
+             <figcaption class="figure-caption text-xs-right">Namita Surolia</figcaption>     
+        </a>        
+        <a href="<?=BASE_URL?>Schedule?day2,session2B">
+             <img src="<?=PUBLIC_URL?>images/stock/Debashish_Chowdhury.jpg" class="speaker-thumbnail" alt="Debashish Chowdhury" title="Debashish Chowdhury"/>
+             <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
+        </a>        
+        </div>    
+    </div>
+    <div class="row">
+        <p class="speaker-type gap-above">Lectures of Fellows &amp; Associates / Special Lectures / Public Lectures / Symposia Lectures</p>     
         <a href="<?=BASE_URL?>Speakers/K_Ullas_Karanth">
              <img src="<?=PUBLIC_URL?>images/stock/K_Ullas_Karanth.jpg" class="speaker-thumbnail" alt="K Ullas Karanth" title="K Ullas Karanth"/>
              <figcaption class="figure-caption text-xs-right">K Ullas Karanth</figcaption>     
@@ -120,48 +163,6 @@
              <img src="<?=PUBLIC_URL?>images/stock/Pradyut_Ghosh.jpg" class="speaker-thumbnail" alt="Pradyut Ghosh" title="Pradyut Ghosh"/>
              <figcaption class="figure-caption text-xs-right">Pradyu Ghosh</figcaption>     
         </a>
-    </div>
-    <div class="row">    
-        <div class="col-md-12">
-        <p class="speaker-type gap-above">Sessional Chairs for Inaugural Lectures</p>
-        <a href="<?=BASE_URL?>Schedule?day1,session1A">
-             <img src="<?=PUBLIC_URL?>images/stock/Madhav_Gadgil.jpg" class="speaker-thumbnail" alt="Madhav Gadgil" title="Madhav Gadgil"/>
-             <figcaption class="figure-caption text-xs-right">Madhav Gadgil</figcaption>     
-        </a>        
-        <a href="<?=BASE_URL?>Schedule?day1,session1B">
-             <img src="<?=PUBLIC_URL?>images/stock/H_S_Mani.jpg" class="speaker-thumbnail" alt="H S Mani" title="H S Mani"/>
-             <figcaption class="figure-caption text-xs-right">H S Mani</figcaption>     
-        </a>        
-        <a href="<?=BASE_URL?>Schedule?day1,session1C">
-             <img src="<?=PUBLIC_URL?>images/stock/Saumitra_Das.jpg" class="speaker-thumbnail" alt="Saumitra Das" title="Saumitra Das"/>
-             <figcaption class="figure-caption text-xs-right">Saumitra Das</figcaption>     
-        </a>        
-        <a href="<?=BASE_URL?>Schedule?day1,session1D">
-             <img src="<?=PUBLIC_URL?>images/stock/Mewa_Singh.jpg" class="speaker-thumbnail" alt="Mewa Singh" title="Mewa Singh"/>
-             <figcaption class="figure-caption text-xs-right">Mewa Singh</figcaption>     
-        </a>        
-        <a href="<?=BASE_URL?>Schedule?day1,session1E">
-             <img src="<?=PUBLIC_URL?>images/stock/G_Krishnamoorthy.jpg" class="speaker-thumbnail" alt="G Krishnamoorthy" title="G Krishnamoorthy"/>
-             <figcaption class="figure-caption text-xs-right">G Krishnamoorthy</figcaption>     
-        </a>        
-        <a href="<?=BASE_URL?>Schedule?day2,session2A">
-             <img src="<?=PUBLIC_URL?>images/stock/Namita_Surolia.jpg" class="speaker-thumbnail" alt="Namita Surolia" title="Namita Surolia"/>
-             <figcaption class="figure-caption text-xs-right">Namita Surolia</figcaption>     
-        </a>        
-        <a href="<?=BASE_URL?>Schedule?day2,session2B">
-             <img src="<?=PUBLIC_URL?>images/stock/Debashish_Chowdhury.jpg" class="speaker-thumbnail" alt="Debashish Chowdhury" title="Debashish Chowdhury"/>
-             <figcaption class="figure-caption text-xs-right">Debashish Chowdhury</figcaption>     
-        </a>        
-        </div>    
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <p class="speaker-type gap-above">Presided By</p>
-            <a href="<?=BASE_URL?>Speakers/Ram_Ramaswamy">
-                <img src="<?=PUBLIC_URL?>images/stock/Ram_Ramaswamy.jpg" class="speaker-thumbnail" alt="Prof. Ram Ramaswamy" title="Prof. Ram Ramaswamy"/>
-                <figcaption class="figure-caption text-xs-right">Prof. Ram Ramaswamy</figcaption>
-            </a>
-        </div>
     </div>
 </div>
 
