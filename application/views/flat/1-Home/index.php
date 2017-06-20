@@ -9,7 +9,7 @@ $(document).ready(function() {
     var containerWidth = $('.container').outerWidth();
 
     var gutter = $('.fancy .text').css('margin-left').replace("px", "");
-
+    console.log(gutter);
     $('.fancy .text').each(function(){
 
         $(this).before('<span class="before">&nbsp;</span>');
