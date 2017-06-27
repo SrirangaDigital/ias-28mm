@@ -9,7 +9,7 @@ $(document).ready(function() {
     var containerWidth = $('.container').outerWidth();
 
     var gutter = $('.fancy .text').css('margin-left').replace("px", "");
-    console.log(gutter);
+
     $('.fancy .text').each(function(){
 
         $(this).before('<span class="before">&nbsp;</span>');
@@ -86,8 +86,8 @@ $(document).ready(function() {
              <figcaption class="figure-caption text-xs-right">H S Mani</figcaption>     
         </a>        
         <a href="<?=BASE_URL?>Schedule?day1,session1C">
-             <img src="<?=PUBLIC_URL?>images/stock/Saumitra_Das.jpg" class="speaker-thumbnail" alt="Saumitra Das" title="Saumitra Das"/>
-             <figcaption class="figure-caption text-xs-right">Saumitra Das</figcaption>     
+             <img src="<?=PUBLIC_URL?>images/stock/S_R_Gadre.jpg" class="speaker-thumbnail" alt="S R Gadre" title="S R Gadre"/>
+             <figcaption class="figure-caption text-xs-right">S R Gadre</figcaption>     
         </a>        
         <a href="<?=BASE_URL?>Schedule?day1,session1D">
              <img src="<?=PUBLIC_URL?>images/stock/Mewa_Singh.jpg" class="speaker-thumbnail" alt="Mewa Singh" title="Mewa Singh"/>
