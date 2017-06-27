@@ -123,7 +123,7 @@ $(document).ready(function() {
                           </dl>
                         </div>
                       <br /><span class="type" id="session1C">Session 1C  - Inaugural Lectures of Fellows / Associates(1120-1300)</span><br />
-                      <span class="chairperson">Chairperson: Saumitra Das, Indian Institute of Science, Bengaluru</span>  
+                      <span class="chairperson">Chairperson: S R Gadre, University of Pune, Pune</span>
                       <br />                        
                         <dl class="dl-horizontal">
                           <dt>
@@ -405,8 +405,8 @@ $(document).ready(function() {
                     </dl>
                     <dl class="dl-horizontal">
                       <dt>
-                        1100 - 1300<br />
-                        <div class="more-info"><a target="_blank" title="" href="javascript:void()"></a></div>
+                        1000 - 1310<br />
+                        <div class="more-info"><a target="_blank" title="More Information" href="<?=DOWNLOAD_URL?>Teacher's_session_lectures.pdf"><i class="fa fa-info-circle"></i></a></div>
                       </dt>
                       <dd>
                         <span class="speaker">Science Education Panel : Symposium / Lectures for Invited teachers and SRFs</span><br />
