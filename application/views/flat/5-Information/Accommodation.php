@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-9 main">
             <h1>Accommodation</h1>
-            <p>The Academy has made arrangements to accommodate all participants who have requested for it. Details regarding this will be sent to the registered participants. Volunteers at the airport will assist the participants in reaching their respective places of accommodation.</p>
+            <p>The Academy has made arrangements to accommodate all participants who have requested for it. Details ​of accommodation ​have been sent to ​all registered participants. Volunteers at the airport will assist the participants in reaching their respective places of accommodation.</p>
             <p>For any queries regarding accommodation, please contact</p>
 
             <div class="row">
