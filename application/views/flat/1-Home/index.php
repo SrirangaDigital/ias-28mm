@@ -231,6 +231,7 @@ $(document).ready(function() {
     </div>
     <div class="row" style="line-height: 150px">
         <div class="col-md-12">
+            <a href="<?=DOWNLOAD_URL?>List_Of_Participants.pdf" class="info-icon"><i class="fa fa-list-ul"></i><br />List of Participants</a>
             <a href="<?=BASE_URL?>Information/Venue" class="info-icon"><i class="fa fa-map-marker"></i><br />Venue</a>
             <a href="<?=BASE_URL?>Information/Accommodation" class="info-icon"><i class="fa fa-bed"></i><br />Accommodation</a>
             <a href="<?=BASE_URL?>Information/Transport" class="info-icon"><i class="fa fa-bus"></i><br />Transport</a><br />
