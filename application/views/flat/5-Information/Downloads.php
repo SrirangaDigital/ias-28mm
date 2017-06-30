@@ -28,6 +28,11 @@
                    <a target="_blank" href="<?=DOWNLOAD_URL?>2017MYMSpecialLecturePoster.pdf">
                    Special Lectures Poster
                    </a>
+                </li>                
+                <li>   
+                   <a target="_blank" href="<?=DOWNLOAD_URL?>List_Of_Participants.pdf">
+                   List of Participants
+                   </a>
                 </li>
             </ul>
         </div>
