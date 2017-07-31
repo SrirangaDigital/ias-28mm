@@ -21,7 +21,8 @@
             <div class="talk">
                 <p class="type">Session 1D: Inaugural Lectures by Fellows/Associates</p>
                 <p class="affiliation">Chairperson: Mewa Singh, University of Mysore, Mysore</p>
-                <p class="title">Understanding the South Asian monsoon response to greenhouse gas (GHG) and aerosol forcing</p>
+                <p class="title">Understanding the South Asian monsoon response to greenhouse gas (GHG) and aerosol forcing
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/8_RaghavanKrishnan.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span></p>
                 <p class="abstract">
                     Rising propensity of precipitation extremes and concomitant decline of summer-monsoon rains are distinctive hydroclimatic signals that have emerged over South Asia since the 1950s. Robust attributions of these signals to global and regional forcing remain unclear. Using a state-of-the-art global climate model with high-resolution zooming over South Asia, it was demonstrated by the speaker’s group that the weakening trend of the monsoon is attributable largely to anthropogenic aerosol forcing, together with contributions from land-use land-cover changes and rapid warming of the equatorial Indian Ocean. The simulated response to increased GHG-only forcing shows intensification of the regional monsoonal rains. It was further shown that monsoonal weakening under climate change significantly enhances occurrence of localized intense precipitation events, as compared to the global-warming response. The physical mechanisms of the South Asian monsoon response to GHG and aerosol forcing will be discussed.
                 </p>

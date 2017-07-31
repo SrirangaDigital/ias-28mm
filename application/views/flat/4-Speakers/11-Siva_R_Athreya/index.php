@@ -21,7 +21,8 @@
             <div class="talk">
                 <p class="type">Session 1E: Inaugural Lectures by Fellows</p>
                 <p class="affiliation">Chairperson: G Krishnamoorthy, Anna University, Chennai</p>
-                <p class="title">Dense graph limits under respondent-driven sampling</p>
+                <p class="title">Dense graph limits under respondent-driven sampling
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/11_SivaAthreya.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span></p>
                 <p class="abstract">
                     Certain respondent-driven sampling procedures on dense graphs will be considered. It will be shown that if the sequence of the vertex-sets is ergodic, then the limiting graph can be expressed in terms of the original dense graph via a transformation related to the invariant measure of the ergodic sequence. For specific sampling procedures, the transformation explicitly will be described.
                 </p>

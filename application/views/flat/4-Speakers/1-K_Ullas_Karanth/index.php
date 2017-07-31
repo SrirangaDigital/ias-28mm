@@ -33,7 +33,9 @@
             <div class="talk">
                 <p class="type">Session 1A – Special Lecture</p>
                 <p class="affiliation">Chairperson: Madhav Gadgil, National Center for Cell Science, Pune</p>
-                <p class="title">Conservation science at macro-ecological scales</p>
+                <p class="title">Conservation science at macro-ecological scales
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/Ullas_Karanth.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>    
+                </p>
                 <p class="abstract">
                     Gaining a deeper understanding of ecological patterns and processes at the macro-ecological scale – over large areas and across long time spans – is central to the effective practice of biological conservation and endangered species recovery.  Although the practice of such, much-needed conservation science offers exciting opportunities in India, it also faces serious challenges.  These challenges can be scientific, technical or logistical, and often, systemic social ones. Using examples from his three decades of ecological research on India’s national animal – the tiger, the speaker will explore possible solutions for some of these challenges.
                 </p>

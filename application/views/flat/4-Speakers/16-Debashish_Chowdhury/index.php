@@ -22,7 +22,9 @@
                 <p class="type">Session 2B: Symposium on “Molecular machines: A multi-disciplinary
                 enterprise”</p>
                 <p class="affiliation">Convener: Debashish Chowdhury, Indian Institute of Technology, Kanpur</p>
-                <p class="title">Noise and nonequilibrium in nano-machine operation: A physics perspective</p>
+                <p class="title">Noise and nonequilibrium in nano-machine operation: A physics perspective
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/15_DebashishChowdhury.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>    
+                </p>
                 <p class="abstract">
                     Molecular machines are naturally occurring molecular devices that transform one form of energy into another. If the output is mechanical, the machine is usually referred to as a motor. The cytoskeletal motors transport wide varieties of cargo. A different class of machines carry out template-directed polymerization where the respective templates also serve, effectively, as tracks for the step-by-step motor-like translocation of these machines. Reverse-engineering these natural nano-machines and chemical synthesis of artificial molecular machines are opening up the industrial revolution of the 21st century. This multidisciplinary enterprise has benefitted from the concepts and techniques of several disciplines including physics, chemistry, biology, engineering and nano-biotechnology. The most challenging questions on the stochastic kinetics of the molecular machines from the perspective of statistical thermodynamics will be highlighted. With examples mainly from his research contributions, how noise, nonequilibrium and network play crucial roles in the operational mechanisms of these machines, will be demonstrated.    
                 </p>

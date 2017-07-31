@@ -22,7 +22,8 @@
 
             <div class="talk">
                 <p class="type">Session 1C: Inaugural Lectures by Fellows/Associates</p>
-                <p class="title">DNA replication in pathogens: Unique properties and possible intervention</p>
+                <p class="title">DNA replication in pathogens: Unique properties and possible intervention
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/5_Suman_K_Dhar.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span></p>
                 <p class="abstract">
                     Dhar’s laboratory works on DNA replication and cell cycle control of two medically important human pathogens: <i>Helicobacter pylori</i>, which causes gastric ulcer and gastric adenocarcinoma, and <i>Plasmodium falciparum</i>, which causes human malaria. The main objective is to find key regulators in DNA replication processes that could be potential targets for therapy. 
                 </p>

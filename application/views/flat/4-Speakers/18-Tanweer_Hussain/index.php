@@ -20,7 +20,9 @@
 
             <div class="talk">
                 <p class="type">Session 2B: Symposium on “Molecular machines: A multi-disciplinary enterprise”</p>
-                <p class="title">Understanding the principles of design of molecular machines: A structural biology perspective</p>
+                <p class="title">Understanding the principles of design of molecular machines: A structural biology perspective
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/17_TanweerHussain.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>    
+                </p>
                 <p class="abstract">
                     The determination of the three-dimensional structures of molecular machines, using various approaches of structural biology, has played a major role in understanding the design of individual molecular machines. The biological function and complexity dictate the evolution of the design of the molecular machines. Moreover, by capturing the molecular machine in action, i.e. by determining the three-dimensional structures of the molecular machine in multiple states in the biological process, the working of the molecular machine is elucidated using clues from other biochemical and mutational studies as well. Proteins carry out almost all the process in the cell and the proteins are made using the genetic information by a macromolecular complex called ribosome. Ribosomes are highly sophisticated, efficient and accurate molecular machines crucial for the gene expression. How structural biology approaches have helped in understanding principles of design of molecular machines with an emphasis on ribosome as an example of molecular machines will be presented.
                 </p>

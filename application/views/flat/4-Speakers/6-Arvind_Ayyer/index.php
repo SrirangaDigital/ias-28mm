@@ -20,7 +20,9 @@
 
             <div class="talk">
                 <p class="type">Session 1C: Inaugural Lectures by Fellows/Associates</p>
-                <p class="title">The asymmetric simple exclusion process: An exactly solvable model of particle transport</p>
+                <p class="title">The asymmetric simple exclusion process: An exactly solvable model of particle transport
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/6_ArvindAyyer.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>
+                </p>
                 <p class="abstract">
                     Exactly solvable models of nonequilibrium statistical physics play a key role in developing intuition about what kind of behaviour one can expect in such systems. The asymmetric simple exclusion process (ASEP) is an exactly solvable model for nonequilibrium physics that models particle transport. In importance, it plays a role similar to the Ising model in equilibrium physics. The ASEP and some exact nonequilibrium computations will be introduced.
                 </p>

@@ -20,7 +20,9 @@
             <div class="talk">
                 <p class="type">Session 1B: Inaugural Lectures by Fellows/Associates</p>
                 <p class="affiliation">Chairperson: H S Mani, Chennai Mathematical Institute, Chennai</p>
-                <p class="title">Exploring the changes in the structure of α-helical peptides adsorbed onto carbon and boron nitride-based nanomaterials</p>
+                <p class="title">Exploring the changes in the structure of α-helical peptides adsorbed onto carbon and boron nitride-based nanomaterials
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/2_Subramanian.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>
+                </p>
                 <p class="abstract">
                 Classical molecular dynamics simulations have been carried out in an explicit solvent environment to understand the interaction between the single-walled carbon nanotube, graphene and boron nitride sheet, and α-helical peptides. Results reveal that these nanomaterials induce conformational changes in helical peptides. The breakage of hydrogen bonds has been observed in the chosen model peptides, which leads to conformational transitions, i.e. α → 310 → π →turns in different parts of the helical peptides. It is observed from the findings that there is a considerable decrease in the helical content of peptides upon interaction with carbon and boron nitride-based nanomaterials, which is in close agreement with the experimental findings. Further, a systematic attempt has been made to explore the relationship between the curvature of carbon nanomaterials and their α-helix-breaking tendency. Results show that the extent of helix breakage induced by the nanomaterials is maximum for the planar sheet materials.
                 </p>
