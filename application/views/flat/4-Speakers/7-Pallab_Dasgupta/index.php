@@ -21,7 +21,8 @@
             <div class="talk">
                 <p class="type">Session 1C: Inaugural Lectures by Fellows/Associates</p>
                 <p class="title">The science of formal safety assurance of embedded electronic systems
-                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/7_PallabDasGuptha.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span></p>
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/7_PallabDasGuptha.pdf"><i class="fa fa-paperclip"></i> View Presentation</a>&nbsp; / &nbsp;<a target="_blank" title="Click here to see the presentation" href="https://www.youtube.com/watch?v=MohelXlKaQM&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE&index=5"><i class="fa fa-paperclip"></i> View Video</a>
+                </span></p>
                 <p class="abstract">
                     With the extensive proliferation of automated embedded systems in every sphere of our lives, the task of assuring the safety of such systems is one of great significance. In recent times a new genre of logic-based mathematical techniques, known as ‘formal methods’, have been recommended in the industrial safety standards of several domains, including avionics, automotive, railway, space, atomic energy, defence, power and industrial automation. The speaker’s formal methods research group at IIT Kharagpur works with leading industries in a wide variety of domains spanning semiconductors, software, control and automation. The significance of formal methods in the engineering of embedded electronic systems and the group’s contributions over the past 15 years will be highlighted.
                 </p>

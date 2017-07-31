@@ -21,7 +21,8 @@
             <div class="talk">
                 <p class="type">Session 1D: Inaugural Lectures by Fellows/Associates</p>
                 <p class="title">Nanomaterials-based light-harvesting systems for potential applications
-                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/9_AmitavaPatra.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span></p>
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/9_AmitavaPatra.pdf"><i class="fa fa-paperclip"></i> View Presentation</a>&nbsp; / &nbsp;<a target="_blank" title="Click here to see the presentation" href="https://www.youtube.com/watch?v=Vulibp_Uoq0&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE&index=7"><i class="fa fa-paperclip"></i> View Video</a>
+                </span></p>
                 <p class="abstract">
                     The current status of challenging light-harvesting nanomaterials such as semiconducting quantum dots (QDs), metal nanoparticles, semiconductor-metal heterostructures, π-conjugated semiconductor nanoparticles, organic–inorganic heterostructures, and porphyrinbased nanostructures will be discussed. The fundamental knowledge of these photophysical processes is crucial for the development of efficient light-harvesting systems such as photocatalytic and photovoltaic systems. The impact of size, shape and composition of QDs on exciton decay dynamics and the energy transfer process for developing lightharvesting systems will be highlighted. Potential light-harvesting systems based on hybrid π-conjugated semiconductor polymer nanoparticles, and self-assembled structures of π-conjugated polymer, as well as the significance of porphyrin-based nanostructures for potential light-harvesting systems will be discussed.
                 </p>

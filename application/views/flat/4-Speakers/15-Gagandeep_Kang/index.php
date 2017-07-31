@@ -22,7 +22,8 @@
                 <p class="type">Session 2A: Special Lecture</p>
                 <p class="affiliation">Chairperson: Namita Surolia, JNCASR, Bengaluru</p>
                 <p class="title">Vaccines and public health in India
-                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/14_GagandeepKang.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/14_GagandeepKang.pdf"><i class="fa fa-paperclip"></i> View Presentation</a>&nbsp; / &nbsp; <a target="_blank" title="Click here to see the presentation" href="https://www.youtube.com/watch?v=4u-EdVnbTRo&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE&index=11"><i class="fa fa-paperclip"></i> View Video</a>
+                </span>
                 </p>
                 <p class="abstract">
                     Wherever vaccines have been widely introduced there has been an extraordinarily positive impact on mortality and morbidity. However, there is much to be done in India to ensure the full introduction of available vaccines in the national immunization programme. There are many challenges in the implementation of new vaccines for a large birth cohort, and there are challenges in implementing a life course approach to vaccination. Nonetheless, the situation is changing in India. The development and deployment of indigenous vaccines is exemplary and assurance that more such efforts will follow. The Indian vaccine industry, and indeed all of India, should take great pride in what has been done in the manufacture of vaccines in general. Yet, we need to ask ourselves if we could have gone ahead with faster development and licensure as well as with quicker implementation.

@@ -22,7 +22,9 @@
                 <p class="type">Session 1F: Public Lecture</p>
                 <p class="affiliation">Chairperson: R Ramaswamy, Jawaharlal Nehru University, 
                 New Delhi</p>
-                <p class="title">C. Subramania Bharati: Nationalism and creativity</p>
+                <p class="title">C. Subramania Bharati: Nationalism and creativity
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="https://www.youtube.com/watch?v=SstAK8y66NQ&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE&index=10"><i class="fa fa-paperclip"></i> View Video</a></span>
+                </p>
                 <p class="abstract">
                     Colonial India produced a phenomenal number of extraordinarily gifted intellectuals who made a deep impact on the making of modern India. But a strange paradox animates their after lives. While many of these intellectuals were <i>au fait</i> with changes across the subcontinent, not to speak of the world, post-independence histories and biographies have imprisoned them in their regions and languages. This lecture focuses on C. Subramania Bharati (1882–1921), modern Tamil’s most prominent literary figure, to demonstrate the wide-ranging influences that made him: his early life in <i>fin de siécle</i> Benares, the Swadeshi movement with its epicenter in Bengal, his friendship with Aurobindo, his wide and eclectic reading in the World literature, and so on. An intertwined strand of this talk is his engagement with Rabindranath Tagore, whom he admired deeply but never met. A strong theme that animated his all-too-brief life was the East’s subjugation by the West and the role of science in it.
                 </p>

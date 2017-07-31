@@ -21,7 +21,8 @@
             <div class="talk">
                 <p class="type">Session 2B: Symposium on “Molecular machines: A multi-disciplinary enterprise”</p>
                 <p class="title">Synthetic small molecules as machines: A chemistry perspective
-                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/18_Pradyut_Ghosh.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>    
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/18_Pradyut_Ghosh.pdf"><i class="fa fa-paperclip"></i> View Presentation</a>&nbsp; / &nbsp;<a target="_blank" title="Click here to see the presentation" href="https://www.youtube.com/watch?v=raVXdWJYBJc&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE&index=14"><i class="fa fa-paperclip"></i> View Video</a>
+                </span>    
                 </p>
                 <p class="abstract">
                     Synthetic threaded molecules have drawn a lot of attention in the supramolecular chemistry community for their possible applications in molecular machines and nanotechnology. Since 1983, a wide variety of mechanically interlocked molecules with increasing complexities have been developed by different groups. In 2016, the Nobel Prize in Chemistry was awarded to Sauvage, Stoddart and Feringa for their contributions to the construction of molecular machines using such synthetic molecules. How they succeeded in linking molecules together to design molecular machines from a tiny lift to microscopic motors and muscles will first be discussed. Then the speaker’s group’s work on the development of threaded systems, such as pseudorotaxanes and rotaxanes having multiple functionalities, will also be discussed briefly.

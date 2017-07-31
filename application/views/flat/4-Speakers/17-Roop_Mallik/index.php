@@ -21,7 +21,8 @@
             <div class="talk">
                 <p class="type">Session 2B: Symposium on “Molecular machines: A multi-disciplinary enterprise”</p>
                 <p class="title">Teamwork in molecular motors: A cell biology perspective
-                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/16_Roop_Mallik.pdf"><i class="fa fa-paperclip"></i> View Presentation</a></span>    
+                <span class="presentation"><a target="_blank" title="Click here to see the presentation" href="<?=PUBLIC_URL?>pdf/16_Roop_Mallik.pdf"><i class="fa fa-paperclip"></i> View Presentation</a>&nbsp; / &nbsp; <a target="_blank" title="Click here to see the presentation" href="https://www.youtube.com/watch?v=Cb5uoZkcFmE&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE&index=13"><i class="fa fa-paperclip"></i> View Video</a>
+                </span>    
                 </p>
                 <p class="abstract">
                     The unit generators of force that drive almost all biological movement are nanoscale molecules called motor proteins. A single motor generates a few pico-Newtons of force, which is not sufficient for most cellular processes. Multiple motors must often work together in a team inside cells. How motors generate force collectively as a team is therefore important, but is poorly understood. Intriguingly, some motors work well in a team, but others cannot. How the single-molecule architecture of specific motors may have adapted them for teamwork will be discussed.
