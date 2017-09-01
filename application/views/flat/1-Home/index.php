@@ -48,12 +48,14 @@ $(document).ready(function() {
 <div class="container clear-paddings" id="registration">
     <div class="row">
         <div class="col-md-12">
-            <p class="subtitle fancy"><span class="text">Registration</span></p>
+            <p class="subtitle fancy"><span class="text">&nbsp;Media&nbsp;</span></p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <p class="reg">Fellows of the Academy and invited teachers who have not yet registered,<br /> please register <a href="http://web-japps.ias.ac.in:8080/Midmeeting2017/midyear/register/Register.jsp" target="_blank">here</a></p>
+            <p class="reg">View the 28MYM Photo Gallery <a href="http://www.ias.ac.in/MYM2017/Gallery" target="_blank">here</a></p>
+            <p class="reg">Find the 28MYM talks that you missed in the 28MYM Video Playlist <a href="https://www.youtube.com/watch?v=0AYZUEv9yEY&t=1s&index=1&list=PLXkPBNeac4NyxmjRLxPOu2q4TuABXHnAE" target="_blank">here</a></p>
+            <p class="reg">Presentation slides of speakers of the 28MYM can be found on the speakers profile page in this site</p>
         </div>
     </div>
 </div>        
